@@ -20,3 +20,7 @@
 
 ### 法善寺
 据说很多人到这里许愿，许愿之后舀水洒到佛像上。旁边有个小巷
+
+
+http://www.mafengwo.cn/jd/10765/gonglve.html
+
