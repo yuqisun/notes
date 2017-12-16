@@ -86,7 +86,7 @@
 ## 天保山摩天轮
 天保山摩天轮是著名的情人约会场所，既可以从高空中俯瞰大海、远山及整个大阪市，还可以从跨海的明石海峡大桥起一直看到神户的六甲山。夜晚彩灯点缀下的大摩天轮充满了浪漫情调，大摩天轮还能形成直径100米的美丽彩灯图案。摩天轮有底部全透明的包厢可以乘坐，如果不恐高推荐尝试。
 
-![天保山摩天轮](http://upload-images.jianshu.io/upload_images/1746191-e980d17cc1216ea1.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![天保山摩天轮](http://upload-images.jianshu.io/upload_images/1746191-0d978c8449ac79e7.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 感觉这些已经够多了，其他的地方还有一些先不需要了：
