@@ -21,28 +21,37 @@
 ## 大阪城公园
 看了一下介绍，处于大阪市中心的位置，是个大公园，经常有一些街头音乐表演，花季可以赏花，中间有个天守阁是大阪标志性建筑，可以登上去看看，开放时间是9：00 - 17：00 (16：30后不能入馆)。看完觉得没大吸引力，不过交通便利，先记下，时间方便可以去，不方便可以不去种类。
 
+![大阪城公园](http://upload-images.jianshu.io/upload_images/1746191-8429c5f2e43d26e3.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
 ## 法善寺
 距离大阪城公园大概3公里，据说很多人到这里许愿，许愿之后舀水洒到佛像上。沿路还有很多传统餐厅和居酒屋，很怀旧。旁边有个小巷，是一段石子路，我看了几个图片，感觉挺热闹的，可以走走逛逛，看看人，拍拍照，夜景也不错。可以下了飞机，晚上在这里吃饭。
 
 ![法善寺](http://upload-images.jianshu.io/upload_images/1746191-2998ee4531e8e2d9.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-![法善寺小巷](http://upload-images.jianshu.io/upload_images/1746191-7587eb34f4c28edd.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![法善寺小巷](http://upload-images.jianshu.io/upload_images/1746191-3863a05cd639b35f.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
 ## 道顿堀
 距离法善寺很近，听说还挨着心斋桥，一会再查一下心斋桥。看介绍，这地方简直是美食娱乐一条街啊，不能错过。看名字很奇怪，我顺便查了一下，是因为
 
 > 1612年，安井道顿、安井道卜与平野乡的安藤藤次（平野藤次）以私人财产兴建一条运河，1615年完工。松平忠明以道顿的功绩，把运河命名为道顿堀。1660年代开始，在邻近地区出现了多座剧场，如中座、角座、竹本座、浪花座、弁天座、朝日座等。在日本桥北诘东，立有安井道顿及道卜的纪念碑。
 
-> 堀是一个汉字，读作kū
+> 堀，读作kū
+
+![道顿堀](http://upload-images.jianshu.io/upload_images/1746191-0cd573afc75856fb.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ## 心斋桥
 这个我之前就听人说过，看来很出名。和道顿堀、黑门市场是挨着的。云集了大型百货、连锁药妆店、老品牌店和小铺。各种档次和风格的商品应有尽有，是一个买买买的地方。很多店面有中文导购，支持银联卡，估计现在还要支持微信支付宝了。要去。
 不过日本的店关门比较早，过的话不能把时间安排得太晚。
 
+![心斋桥](http://upload-images.jianshu.io/upload_images/1746191-5e002ddacb9a5d07.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
 ## 日本桥
 距离心斋桥不远，步行约一刻钟。号称“关西的秋叶原”，基本上所有的连锁动漫商店在这里都能找到。要注意电器分日本版与国际版。日本版是110v，只有国际版才支持我们中国220v。
 
-![日本桥](http://upload-images.jianshu.io/upload_images/1746191-61581437cb719e0d.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![日本桥](http://upload-images.jianshu.io/upload_images/1746191-d82124762e54bd2d.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 ## 日本环球影城
@@ -52,29 +61,33 @@
 * 侏罗纪公园飞天翼龙，最刺激项目
 * 小黄人调皮闹剧乘车游
 
-![日本环球影城](http://upload-images.jianshu.io/upload_images/1746191-e00faa402599425a.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![日本环球影城](http://upload-images.jianshu.io/upload_images/1746191-88d79b7b9d967a7b.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-![日本环球影城](http://upload-images.jianshu.io/upload_images/1746191-c6cf256835cb2536.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![日本环球影城](http://upload-images.jianshu.io/upload_images/1746191-fcf0ffd5bc5db50a.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 ## 梅田蓝天大厦
 是一个鸟瞰大阪全城、欣赏夕阳夜景的人气景点，环形展望台将Tower East和Tower West相连，为人们提供了360度的广阔视野。像上海的东方明珠啊，想去看看。
 门票1000日元，时间10:00-22:30，上到三楼跟着指示坐直梯去空中庭园的售票处，在35层转乘如时空隧道般的手扶电梯到39层，40层隔窗就能环观夜景。再往上到达顶层便是露天360°夜景。
 
-![梅田蓝天大厦](http://upload-images.jianshu.io/upload_images/1746191-9538cdb63e87a079.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![梅田蓝天大厦](http://upload-images.jianshu.io/upload_images/1746191-a57cf207d262030e.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-![梅田蓝天大厦](http://upload-images.jianshu.io/upload_images/1746191-b968b212def992a3.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![梅田蓝天大厦](http://upload-images.jianshu.io/upload_images/1746191-f4c8b2d26c96ab1c.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![梅田蓝天大厦](http://upload-images.jianshu.io/upload_images/1746191-6b7b2794a5208fde.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 ## 大阪今昔生活馆
 这个看名字我就觉得会挺有感觉的，在梅田蓝天大厦旁边。还原了当时的建筑物以及人们的生活原型，来这里参观的游客们可以通过陈列品来想像不同历史时期人们的生活方式，从而全面地了解大阪的发展历程。文艺青年应该喜欢。
 
-![大阪今昔生活馆](http://upload-images.jianshu.io/upload_images/1746191-1feef5d4d20d252d.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![大阪今昔生活馆](http://upload-images.jianshu.io/upload_images/1746191-0c8fd7217e69d528.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
 ## 天保山摩天轮
 天保山摩天轮是著名的情人约会场所，既可以从高空中俯瞰大海、远山及整个大阪市，还可以从跨海的明石海峡大桥起一直看到神户的六甲山。夜晚彩灯点缀下的大摩天轮充满了浪漫情调，大摩天轮还能形成直径100米的美丽彩灯图案。摩天轮有底部全透明的包厢可以乘坐，如果不恐高推荐尝试。
 
-![天保山摩天轮](http://upload-images.jianshu.io/upload_images/1746191-e065e390d7cc457f.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![天保山摩天轮](http://upload-images.jianshu.io/upload_images/1746191-e980d17cc1216ea1.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
 感觉这些已经够多了，其他的地方还有一些先不需要了：
 * 大阪历史博物馆
@@ -112,4 +125,8 @@
 ![二条城](http://upload-images.jianshu.io/upload_images/1746191-b4c6bd84ddba3fd7.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ## 四条河原町
+终于找到一个介绍里包含饮食的地方了。四条河原町是京都最为繁华的商业街，集中了很多有名的商城和特色小店.这些都是在日本拥有诸多分店的大型商场，里面的潮流服饰，传统服装一应俱全。此外有众多的特色店、奢侈品专卖店、书店、饮食店。
+
+![四条河原町](http://upload-images.jianshu.io/upload_images/1746191-deb051573f2c06d1.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
