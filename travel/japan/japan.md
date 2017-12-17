@@ -95,8 +95,23 @@
 * 难波公园
 * 四天王寺
 
-总结下来，这其中，心斋桥那一片（包括心斋桥，道顿堀，法善寺）肯定会去的，日本环球影城和梅田蓝天大厦也不错，还有天保山摩天轮。
-那酒店就预定在心斋桥附近，这样20号晚上就可以逛起来，21号可以去环球影城玩一天也可以去梅田蓝天大厦和摩天轮，晚上回酒店，22号上午逛逛，然后向京都出发。
+在[地图](https://drive.google.com/open?id=17ex1XdYRmYgZutplndWgJ9WbYWJkXQDx&usp=sharing)上标记一下各个地方的相对位置再规划路线。
+
+![大阪自由行](http://upload-images.jianshu.io/upload_images/1746191-fd35b599c17a1651.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+这样看果然直接多了，把酒店选在中心矩形标记的位置比较方便，这里由北到南依次心斋桥，日本桥，道顿堀，法善寺。向东北方向可以到梅田蓝天大厦，大阪今昔生活馆，大阪城公园。向西南方向可以到日本环球影城，天保山摩天轮。
+
+那酒店就预定在心斋桥附近，这样20号晚上就可以逛起来，21号可以去环球影城加摩天轮玩一天不知道够不够，也可以去梅田蓝天大厦和大阪城公园，晚上回酒店，22号上午逛逛，然后向京都出发。
+
+再查一下从心斋桥到到两个方向的时间，心里有个预估：
+> 心斋桥 -> 天保山摩天轮：大概半个小时，车次间隔8分钟，哎呦，还可以哦
+
+![心斋桥 -> 天保山摩天轮](http://upload-images.jianshu.io/upload_images/1746191-64a6d3aed13bfaaf.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+> 心斋桥 -> 梅田蓝天大厦：17分钟，车次间隔4分钟，不错，挺近的。至于地铁，公交等怎么坐，有公交卡什么的还没查，先定好地方再看
+
+![心斋桥 -> 梅田蓝天大厦](http://upload-images.jianshu.io/upload_images/1746191-4bc8e6eefa7b9dc9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
 ---
 
