@@ -228,6 +228,17 @@
 
 ![新宿](http://upload-images.jianshu.io/upload_images/1746191-05908016668d1b0e.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+## 早稻田大学
+差点忘记了加上大学，逛逛不同的大学总有新鲜感，早稻田大学距离新宿比较近，可以一块去看一下。
+
+![早稻田大学](http://upload-images.jianshu.io/upload_images/1746191-ccddb5281f779527.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+## 东京大学
+也是非常出名的学校，看地图距离早稻田大学不是很远，不知道来不来得及过去。
+
+![东京大学](http://upload-images.jianshu.io/upload_images/1746191-4fc93381577a6c24.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
 ## 东京迪士尼乐园
 光是查资料，码字写到这里我都累了，感觉玩到这一天我应该已经没力气再到迪斯尼里狠玩一天了，我觉得应该再刚出行的时候，就是到大阪日本环球影城玩玩，迪斯尼就可以不去了。还是先标记一下地点吧，万一到时候精力充沛两个都要去呢。
 主要分为世界市集、探险乐园、西部乐园、新生物区、梦幻乐园、卡通城及未来乐园等7个区，园内的舞台及广场上定时会有丰富多彩的化妆表演和趣味游行活动，比较童话梦幻，项目相对来说比较温和，适合全家出游。
@@ -247,7 +258,8 @@
 差不多了，先查一下相对位置看看怎么安排吧。
 圆形范围大概分布着东京行的主要地点，东南方向比较远的两个是迪斯尼乐园和日本科学未来馆。
 
-![东京自由行](http://upload-images.jianshu.io/upload_images/1746191-701671cc693c7f0e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![东京自由行](http://upload-images.jianshu.io/upload_images/1746191-e493f7bdbb5932b0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
 查一下交通时间：
 > 银座 -> 新宿：大概50分钟，还可以
@@ -269,7 +281,7 @@
 
 ![银座 -> 机场](http://upload-images.jianshu.io/upload_images/1746191-f39fd82c1e018e70.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-> 那酒店就在银座附近预定，如果太贵偏一些感觉交通也可以，24号到了之后在银座逛逛，晚上到秋叶原电器街逛一下。25号到新宿逛一下，下午去涩谷。26号到浅草寺，下午找个地方泡个温泉，休息一下，如果要头一天晚上到机场附近住就坐车去机场，如果第二天一早走，晚上可以去六本木和东京塔看看。
+> 那酒店就在银座附近预定，如果太贵偏一些感觉交通也可以，24号到了之后在银座逛逛，晚上到秋叶原电器街逛一下。25号到早稻田大学，新宿逛一下，下午去涩谷。26号到浅草寺，下午找个地方泡个温泉，休息一下，如果要头一天晚上到机场附近住就坐车去机场，如果第二天一早走，晚上可以去六本木和东京塔看看。
 
 ---
 
