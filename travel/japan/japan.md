@@ -1,22 +1,22 @@
 行程预计1.20号下午到达大阪，1.27号上午从东京返回，先大体计划一下在哪个城市停留几天，再预定住宿。
 
-查了一下地图，有很多地方，时间有限不能每个都去，从其中挑选出大阪，有马温泉和东京三个地方，其他地方只好下次再体验了，要不然每天跑也太累了还玩不尽兴。先找这三个地方的景点出来，找找各个地方的攻略：
+查了一下地图，有很多地方可以玩，而且朋友推荐的好地方越来越多，时间有限不能每个都去，我从其中挑选出大阪，有马温泉和东京三个地方，其他地方只好下次再体验了，要不然每天跑也太累了还玩不尽兴。先找这三个地方的景点出来，找找各个地方的攻略：
 
-![日本地图](http://upload-images.jianshu.io/upload_images/1746191-c7edcc424ed4e9ea.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![日本自由行地图](http://upload-images.jianshu.io/upload_images/1746191-db208abeda6c1aec.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 > 大阪 -> ~~奈良~~ -> ~~京都~~ -> 有马温泉 -> ~~名古屋~~ -> ~~箱根温泉~~ -> ~~富士山~~ -> 东京
 
 时间的话，就暂定：
 > * 大阪： 20号晚上到，21号全天，22全天，23号早上出发去有马温泉
-> * 有马温泉：23号中午到达，24号退房后出发去东京
-> * 东京：24号到达，25，26号全天，27号早上返回
+> * 有马温泉：23号中午到达，24号上午退房后出发去东京
+> * 东京：24号到达，25，26号全天，27号早上返回国内
 
 ---
 
 # [大阪](https://baike.baidu.com/item/%E5%A4%A7%E9%98%AA/1176464?fr=aladdin)
-先看一下面积，如果比较大的话可能要根据当天要去的景点在周边预定酒店，如果比较小的话就预定一个就好了。大阪面积是223平方公里，人口约267万。查了几个自己熟悉的城市，最后发现应该比本溪市西湖区（320平方公里）小一些，算上本溪四周都是山，可能很多面积都没有交通，没有人居住，估计和大阪差不多大。又查了一下大阪的交通图，感觉定在一个酒店就可以了。
+先看一下面积，如果比较大的话可能要根据当天要去的景点在周边预定酒店，如果比较小的话就预定一个就好了。大阪面积是223平方公里，人口约267万。查了几个自己熟悉的几个城市，最后发现应该比本溪市西湖区（320平方公里）小一些，算上本溪四周都是山，可能很多面积都没有交通，没有人居住，估计和大阪差不多大。又查了一下大阪的交通图，感觉定在一个酒店就可以了。
 
-接下来就开始找有哪些出名的景点，毕竟语言不通，自己随便走可能有点好的地方会错过。
+接下来就开始找有哪些出名的景点，毕竟语言不通，自己随便走可能有些好的地方会错过。
 
 ## 大阪城公园
 处于大阪市中心的位置，是个大公园，经常有一些街头音乐表演，花季可以赏花，中间有个天守阁是大阪标志性建筑，可以登上去看看，开放时间是9：00 - 17：00 (16：30后不能入馆)。看完觉得没大吸引力，不过交通便利，先记下，时间方便可以去，不方便可以不去。
@@ -67,8 +67,8 @@
 
 
 ## 梅田蓝天大厦
-是一个鸟瞰大阪全城、欣赏夕阳夜景的人气景点，环形展望台将Tower East和Tower West相连，为人们提供了360度的广阔视野。像上海的东方明珠啊，想去看看。
-门票1000日元，时间10:00-22:30，上到三楼跟着指示坐直梯去空中庭园的售票处，在35层转乘如时空隧道般的手扶电梯到39层，40层隔窗就能环观夜景。再往上到达顶层便是露天360°夜景。
+是一个鸟瞰大阪全城、欣赏夕阳夜景的人气景点，环形展望台将Tower East和Tower West相连，为人们提供了360度的广阔视野。门票1000日元，时间10:00-22:30，上到三楼跟着指示坐直梯去空中庭园的售票处，在35层转乘如时空隧道般的手扶电梯到39层，40层隔窗就能环观夜景。再往上到达顶层便是露天360°夜景。
+这个手扶电梯看起来好酷，想去体验一下。
 
 ![梅田蓝天大厦](http://upload-images.jianshu.io/upload_images/1746191-a57cf207d262030e.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
@@ -88,13 +88,13 @@
 
 ![天保山摩天轮](http://upload-images.jianshu.io/upload_images/1746191-0d978c8449ac79e7.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-
-感觉这些已经够多了，其他的地方还有一些先不需要了：
+感觉这些已经够多了，其他的地方还有一些先记下名字，有机会就去走走：
 * 大阪历史博物馆
 * 通天阁
 * 难波公园
 * 四天王寺
 
+## *路线*
 在[地图](https://drive.google.com/open?id=17ex1XdYRmYgZutplndWgJ9WbYWJkXQDx&usp=sharing)上标记一下各个地方的相对位置再规划路线。
 
 ![大阪自由行](http://upload-images.jianshu.io/upload_images/1746191-fd35b599c17a1651.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
@@ -112,14 +112,190 @@
 
 ![心斋桥 -> 梅田蓝天大厦](http://upload-images.jianshu.io/upload_images/1746191-4bc8e6eefa7b9dc9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+## *住宿*
+住宿的话虽然我是按照走的城市的顺序写在这里方便查看，但其实路线更改了很多次，我是定好了整个日本自由行之后才开始预订的。
+
+订大阪的酒店的时候就是按照上边的路线安排在心斋桥附近找。开始只查了酒店，因为不知道民宿靠不靠谱。酒店几乎每个都要RMB1000+，比起国内来感觉好贵，可能和是周末也有关系。后来问到了一个在大阪住过民宿的朋友，说还不错。我又在 AirBnb上查找民宿，很多看着图片和评论不错的一看预订日期都被订出去了。
+
+最终找到一个只有20,21号两天可以入住的民宿，里心斋桥不远，我又在附近预订了22号的酒店，想着万一民宿不靠谱，第三天还可以住酒店也不错。
+
+民宿房东的描述是到心斋桥步行13分钟可到达，具体入住细节等入住前一天再通知。我看了一下 AirBnb上标注的大略地图，和我订的酒店不是很远，房东是可以中文交流的。另外民宿是要先付款的。
+酒店订的是***Hotel Monterey Grasmere Osaka（大阪蒙特利格拉斯米尔酒店）***，主要看了评论和地理位置感觉都不错，这样去有马从心斋桥出发就可以了。
+
+###### [Hotel Monterey Grasmere Osaka（大阪蒙特利格拉斯米尔酒店）](https://www.booking.com/hotel/jp/monterey-grasmere.zh-cn.html?aid=378266;label=booking-name-4UfjYgZbXanEcVWUBUJFxwS160850613037%3Apl%3Ata%3Ap1%3Ap21%2C570%2C000%3Aac%3Aap1t1%3Aneg%3Afi%3Atiaud-146342138230%3Akwd-65526620%3Alp1028851%3Ali%3Adec%3Adm;sid=4f1b74486ae56c89a815526677d74af6;all_sr_blocks=32174802_88969283_0_2_0;bshb=2;checkin=2018-01-22;checkout=2018-01-23;dest_id=-240905;dest_type=city;dist=0;group_adults=2;hapos=1;higher_class_available=1;highlighted_blocks=32174802_88969283_0_2_0;hpos=1;room1=A%2CA;sb_price_type=total;srepoch=1513778166;srfid=c32d3416d19e38baad85a6efdf62e4273bb148beX1;srpvid=0f5e61fae090018a;type=total;ucfs=1&#hotelTmpl)
+![大阪蒙特利格拉斯米尔酒店](http://upload-images.jianshu.io/upload_images/1746191-5db7e1b27705e16e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
 ---
 
 # [有马温泉](https://baike.baidu.com/item/%E6%9C%89%E9%A9%AC%E6%B8%A9%E6%B3%89/289758?fr=aladdin)
 有马温泉（Arima Onsen）是日本关西地区最古老的温泉。是在公元8世纪，由佛教僧人建造的疗养设施。位于兵库县神户市北区有马町，历史悠久，素有「神户之腹地」之称，是日本三大名泉（下吕温泉、草津温泉）之一。有马温泉的水质富涵矿物质，泉水中含有约为海水2倍浓度的铁盐泉，分为泉色似铁锈红的“金泉”和无色透明炭酸泉的“银泉”。有马温泉地区，是一处优雅的温泉旅馆集中地。
 
-到这里住一晚，最重要的就是定一个好的温泉酒店了。
+前几天在大阪的计划都是逛街，走路，到这里的目的就是好好休息一下，而且时间正好是冬季适合泡温泉，所以就取消了去京都的计划改到有马泡温泉了。在这里住一晚，最重要的就是定一个好的温泉酒店了。我在[Booking](https://www.booking.com)上找到了几个看起来不错的。最终选了一个叫***Arima Onsen Tosen Goshobo（有马温泉陶泉御所坊酒店）***的。这个酒店和下边一个***Hyoe Koyokaku（兵卫向阳阁）***，我翻看了图片和评论，反响都很不错，最后看了一下陶泉御所坊的评论更多一点就定了这个。
+
+在Booking上预订并不需要交订金，并且可以限时免费取消。酒店有早餐和晚餐提供，比没有餐食的贵一些，看评论说日本温泉酒店餐食还是很不错的，而且有专人服务，直接送到房间里，体验很好。所以我就订了带早餐和晚餐的。
+
+预订成功之后，酒店给我发了一封邮件，大概问了下：
+> * 预计几点到达有马
+> * 是乘火车，大巴还是自驾，因为有接站服务
+> * 因为晚餐在晚上6点开始，如果6点之前不能到达的话要提前通知酒店
+> * 还有希望提供一些客户信息什么的，方便酒店事前安排房间
+
+总之预订完之后印象上酒店还是很周到的，具体服务怎么样就要等住过之后再讲了。
+
+###### [Arima Onsen Tosen Goshobo（有马温泉陶泉御所坊酒店）](https://www.booking.com/hotel/jp/tosen-goshobo.html?aid=378266;label=booking-name-4UfjYgZbXanEcVWUBUJFxwS160850613037%3Apl%3Ata%3Ap1%3Ap21%2C570%2C000%3Aac%3Aap1t1%3Aneg%3Afi%3Atiaud-146342138230%3Akwd-65526620%3Alp1028851%3Ali%3Adec%3Adm;sid=4f1b74486ae56c89a815526677d74af6&from_list=1;checkin=2018-01-23;checkout=2018-01-24;group_rooms=1;group_adults=2;group_children=0;;label=booking-name-4UfjYgZbXanEcVWUBUJFxwS160850613037:pl:ta:p1:p21,570,000:ac:ap1t1:neg:fi:tiaud-146342138230:kwd-65526620:lp1028851:li:dec:dm)
+![有马温泉陶泉御所坊酒店](http://upload-images.jianshu.io/upload_images/1746191-65c239bd3594c0db.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+###### [Hyoe Koyokaku（兵卫向阳阁）](https://www.booking.com/hotel/jp/hyoe-koyokaku.html?aid=378266;label=booking-name-4UfjYgZbXanEcVWUBUJFxwS160850613037%3Apl%3Ata%3Ap1%3Ap21%2C570%2C000%3Aac%3Aap1t1%3Aneg%3Afi%3Atiaud-146342138230%3Akwd-65526620%3Alp1028851%3Ali%3Adec%3Adm;sid=4f1b74486ae56c89a815526677d74af6&from_list=1;checkin=2018-01-23;checkout=2018-01-24;group_rooms=1;group_adults=2;group_children=0;;label=booking-name-4UfjYgZbXanEcVWUBUJFxwS160850613037:pl:ta:p1:p21,570,000:ac:ap1t1:neg:fi:tiaud-146342138230:kwd-65526620:lp1028851:li:dec:dm)
+![兵卫向阳阁](http://upload-images.jianshu.io/upload_images/1746191-6bd2e2a8bfe4bad2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+---
+
+# [东京](https://baike.baidu.com/item/%E4%B8%9C%E4%BA%AC/438?fr=aladdin)
+东京都面积2155平方公里，城区面积621平方公里，都市圈13400平方公里。东京比较大了，如果都是在城区还好，总之得先看看要走的地方看看是不是要分不同的地方预定酒店了。
+
+## 银座
+这么出名，我早就听说过了，第一个先查一下。
+银座是全城最繁华的闹市区。这是由一条主街、几条横街组成的街区，其中心是东西长约1公里的大街，它把从一丁目到八丁目之间的地区紧紧连接起来，即所谓“银座八丁”。在这里，集中了许多专卖店、百货商店、夜总会等。
+银座大街的两旁是百货公司，最有名的有三越、松屋、松坂屋、高岛屋等。还有像御木本的珍珠店、天赏堂的珠宝店、资生堂的化妆品都很有名。
+然后就是走走逛逛，买买东西喽，不过貌似对我吸引力也不是很大，就去感受下吧，关门时间比较早，晚上8点。
+
+![银座](http://upload-images.jianshu.io/upload_images/1746191-1603fa348da54ee4.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+## 东京塔，天空树，六本木
+看介绍都是类似东方明珠的可以俯瞰全城的地方，到时候看看时间随便找一个去看看就可以了，拍几个照片，吸引力不是很大。六本木似乎是个建筑群，很多饮食，购物区，也有高楼可以看到东京塔。
+
+###### 东京塔
+![东京塔](http://upload-images.jianshu.io/upload_images/1746191-1cc9610b620c4586.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+###### 天空树
+![天空树](http://upload-images.jianshu.io/upload_images/1746191-cc59a8d8f2105c7c.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+###### 六本木
+![六本木](http://upload-images.jianshu.io/upload_images/1746191-98fa23497a2b06eb.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+## 浅草寺
+是日本现存的具有“江户风格”的民众游乐之地。浅草寺是东京都内最古老的寺庙。寺院的大门叫“雷门”，正式名称是“风雷神门”，是日本的门脸、浅草的象征。除浅草寺内堂外，浅草寺院内的五重塔等著名建筑物。
+
+![浅草寺](http://upload-images.jianshu.io/upload_images/1746191-99a840c177bbbbd8.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+## 秋叶原电器街
+这里有很多卖电子产品的地方，还有面向动漫迷的专门店、游戏咖啡店等。虽然不是动漫迷，我觉得去看看应该会很有意思。不过据朋友讲，现在有一些会中文的店员专坑中国人，去了要小心了。
+
+![秋叶原电器街](http://upload-images.jianshu.io/upload_images/1746191-2b9910fcca52886d.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+## 涩谷
+是一个商业区，有一个109百货大厦似乎很出名，两栋楼，一栋专门卖男士相关，一栋卖女士相关，可以去看看。
+
+![涩谷](http://upload-images.jianshu.io/upload_images/1746191-bbb041b6828fdce8.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+## 新宿
+看了很多日本电影和小说里经常出现的地名，是东京乃至于整个日本最著名的繁华商业区。
+东京真是购物的地方太多了啊，听人说起来感觉各种繁华的样子，不知道亲身体验如何了。
+
+![新宿](http://upload-images.jianshu.io/upload_images/1746191-59ae6be88684eef8.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![新宿](http://upload-images.jianshu.io/upload_images/1746191-05908016668d1b0e.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+## 早稻田大学
+差点忘记了加上大学，逛逛不同的大学总有新鲜感，早稻田大学距离新宿比较近，可以一块去看一下。
+
+![早稻田大学](http://upload-images.jianshu.io/upload_images/1746191-ccddb5281f779527.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+## 东京大学
+也是非常出名的学校，看地图距离早稻田大学不是很远，不知道来不来得及过去。
+
+![东京大学](http://upload-images.jianshu.io/upload_images/1746191-4fc93381577a6c24.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
+## 东京迪士尼乐园
+光是查资料，码字写到这里我都累了，感觉玩到这一天我应该已经没力气再到迪斯尼里狠玩一天了，我觉得应该在刚出行的时候，到大阪日本环球影城玩玩，迪斯尼就可以不去了。还是先标记一下地点吧，万一到时候精力充沛呢。
+主要分为世界市集、探险乐园、西部乐园、新生物区、梦幻乐园、卡通城及未来乐园等7个区，园内的舞台及广场上定时会有丰富多彩的化妆表演和趣味游行活动，比较童话梦幻，项目相对来说比较温和，适合全家出游。
+
+![东京迪士尼乐园](http://upload-images.jianshu.io/upload_images/1746191-6d4ecf490de21ce4.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+## 上野公园
+有宽永寺，德川家灵庙，东昭宫，清水堂，西乡隆盛铜像等古迹。园内还有很多博物馆。园西北有上野动物园，饲养着900多种珍禽异兽，在园内的不忍池内，终年栖息着大量野生的黑天鹅，大雁、鸳鸯等。听这描述像不像历史书里的圆明园。
+
+![上野公园](http://upload-images.jianshu.io/upload_images/1746191-2dcfe5f6248943e2.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+## 日本科学未来馆
+看这名字很有科技感啊，不过据说要有日语基础的才好，不会日语的只能看个热闹了。
+
+![日本科学未来馆](http://upload-images.jianshu.io/upload_images/1746191-3a407a6ff3082094.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
+## *路线*
+差不多了，先查一下相对位置看看怎么安排吧。
+圆形范围大概分布着东京行的主要地点，东南方向比较远的两个是迪斯尼乐园和日本科学未来馆。
+
+![东京自由行](http://upload-images.jianshu.io/upload_images/1746191-e493f7bdbb5932b0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+还有一个重要的点是东京是最后一站了，27号上午10点要从东京成田机场起飞，要把机场的交通查一下，是头一天到机场还是第二天起早过去。
+
+查完之后发现上野这里到成田机场比较近，乘坐Skylinner 大概50分钟就可以，这里有篇[成田机场史上超详细交通攻略](http://www.mafengwo.cn/gonglve/ziyouxing/18843.html)楼主写的很详细。下边附上Skylinner 的[时刻表](http://www.keisei.co.jp/keisei/tetudou/skyliner/cn/ae_timetable/index.php)，这样只要乘坐早上6：20的车，7点多就可以到达机场，如果8点钟办理完登机还有一个多小时的时间可以逛机场免税店。
+
+![上野到成田机场](http://upload-images.jianshu.io/upload_images/1746191-611df4b5ca7ea5d2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![Skylinner时刻表](http://upload-images.jianshu.io/upload_images/1746191-e77ccc72250eca05.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
+再查一下东京市内交通时间：
+> 上野 -> 新宿：大概40分钟，还可以
+
+![上野 -> 新宿](http://upload-images.jianshu.io/upload_images/1746191-53601eab4a7a2a6d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
+> 上野 -> 涩谷：30-40分钟
+
+![上野 -> 涩谷](http://upload-images.jianshu.io/upload_images/1746191-376ab3cc9481b1b5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
+> 上野 -> 东京迪斯尼：40-50分钟
+
+![上野 -> 东京迪斯尼](http://upload-images.jianshu.io/upload_images/1746191-a801ea612061f10d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+> 那酒店就在上野车站附近预定，24号到了之后在周围逛逛，晚上到秋叶原电器街逛一下。25号到早稻田大学，新宿逛一下，下午去涩谷。26号可以到银座，浅草寺。27号早上从上野车站出发去成田机场。
+
+## *住宿*
+一个在上野住过的朋友推荐了一个他当时住过的***Dormy Inn Ueno Okachimachi（上野御徒町多米酒店）***，价格合适，并且酒店里有温泉，平分很高，只是有一些评论说房间有些小。所以我订了另外一个平分也比较高的***Mitsui Garden Hotel Ueno（上野三井花园饭店）***。
+
+
+###### [Mitsui Garden Hotel Ueno（上野三井花园饭店）](https://www.booking.com/hotel/jp/mitsui-garden-ueno.html?aid=378266;label=booking-name-4UfjYgZbXanEcVWUBUJFxwS160850613037%3Apl%3Ata%3Ap1%3Ap21%2C570%2C000%3Aac%3Aap1t1%3Aneg%3Afi%3Atiaud-146342138230%3Akwd-65526620%3Alp1028851%3Ali%3Adec%3Adm;sid=4f1b74486ae56c89a815526677d74af6&from_list=1;checkin=2018-01-24;checkout=2018-01-27;group_rooms=1;group_adults=2;group_children=0;;label=booking-name-4UfjYgZbXanEcVWUBUJFxwS160850613037:pl:ta:p1:p21,570,000:ac:ap1t1:neg:fi:tiaud-146342138230:kwd-65526620:lp1028851:li:dec:dm)
+
+![上野三井花园饭店](http://upload-images.jianshu.io/upload_images/1746191-577ea4f457eb862b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
+###### [上野御徒町多米酒店](https://www.booking.com/hotel/jp/dormy-inn-ueno-okachimachi.html?aid=378266;label=booking-name-4UfjYgZbXanEcVWUBUJFxwS160850613037%3Apl%3Ata%3Ap1%3Ap21%2C570%2C000%3Aac%3Aap1t1%3Aneg%3Afi%3Atiaud-146342138230%3Akwd-65526620%3Alp1028851%3Ali%3Adec%3Adm;sid=4f1b74486ae56c89a815526677d74af6&from_list=1;checkin=2018-01-24;checkout=2018-01-27;group_rooms=1;group_adults=2;group_children=0;;label=booking-name-4UfjYgZbXanEcVWUBUJFxwS160850613037:pl:ta:p1:p21,570,000:ac:ap1t1:neg:fi:tiaud-146342138230:kwd-65526620:lp1028851:li:dec:dm)
+![上野御徒町多米酒店](http://upload-images.jianshu.io/upload_images/1746191-dc6bb86555b8d8c5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+---
+---
+
+# 交通
+整个日本境内行程有几个大交通
+
+> 大阪关西机场T1 -> 心斋桥附近的住处：50mins - 1.5h，每15/30mins 一车次。
+
+![大阪关西机场T1 -> 心斋桥](http://upload-images.jianshu.io/upload_images/1746191-b6b67c80f1288a4b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+> 大阪蒙特利格拉斯米尔酒店[心斋桥附近的住处] -> 有马温泉：早上有一条线大概1h20mins，每90mins 一车次。看到前边几个6个多小时吓坏我了，以为之前查错了。
+
+![大阪蒙特利格拉斯米尔酒店[心斋桥附近的住处] -> 有马温泉](http://upload-images.jianshu.io/upload_images/1746191-8787244c060a7cc8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+> 有马温泉酒店 -> 东京上野三井花园饭店：大概4个小时
+
+![有马温泉酒店 -> 东京上野三井花园饭店](http://upload-images.jianshu.io/upload_images/1746191-35f7254bfb37a38d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+> 东京上野三井花园饭店 -> 成田机场T1：1小时
+
+![东京上野三井花园饭店 -> 成田机场T1](http://upload-images.jianshu.io/upload_images/1746191-ca1f481a44045c46.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+# 通讯
+
+
+
+---
 ---
 
 # [京都](https://baike.baidu.com/item/%E4%BA%AC%E9%83%BD/10290262)
@@ -188,106 +364,6 @@
 
 ---
 
-# [东京](https://baike.baidu.com/item/%E4%B8%9C%E4%BA%AC/438?fr=aladdin)
-东京都面积2155平方公里，城区面积621平方公里，都市圈13400平方公里。东京比较大了，如果都是在城区还好，总之得先看看要走的地方看看是不是要分不同的地方预定酒店了。
-
-## 银座
-这么出名，我早就听说过了，第一个先查一下。
-银座是全城最繁华的闹市区。这是由一条主街、几条横街组成的街区，其中心是东西长约1公里的大街，它把从一丁目到八丁目之间的地区紧紧连接起来，即所谓“银座八丁”。在这里，集中了许多专卖店、百货商店、夜总会等。
-银座大街的两旁是百货公司，最有名的有三越、松屋、松坂屋、高岛屋等。还有像御木本的珍珠店、天赏堂的珠宝店、资生堂的化妆品都很有名。
-然后就是走走逛逛，买买东西喽，不过貌似对我吸引力也不是很大，就去感受下吧，关门时间比较早，晚上8点。
-
-![银座](http://upload-images.jianshu.io/upload_images/1746191-1603fa348da54ee4.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-## 东京塔，天空树，六本木
-看介绍都是类似东方明珠的可以俯瞰全城的地方，到时候看看时间随便找一个去看看就可以了，拍几个照片，吸引力不是很大。六本木似乎是个建筑群，很多饮食，购物区，也有高楼可以看到东京塔。
-
-###### 东京塔
-![东京塔](http://upload-images.jianshu.io/upload_images/1746191-1cc9610b620c4586.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-###### 天空树
-![天空树](http://upload-images.jianshu.io/upload_images/1746191-cc59a8d8f2105c7c.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-###### 六本木
-![六本木](http://upload-images.jianshu.io/upload_images/1746191-98fa23497a2b06eb.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-## 浅草寺
-是日本现存的具有“江户风格”的民众游乐之地。浅草寺是东京都内最古老的寺庙。寺院的大门叫“雷门”，正式名称是“风雷神门”，是日本的门脸、浅草的象征。除浅草寺内堂外，浅草寺院内的五重塔等著名建筑物。
-
-![浅草寺](http://upload-images.jianshu.io/upload_images/1746191-99a840c177bbbbd8.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-## 秋叶原电器街
-这里有很多卖电子产品的地方，还有面向动漫迷的专门店、游戏咖啡店等。虽然不是动漫迷，我觉得去看看应该会很有意思。
-
-![秋叶原电器街](http://upload-images.jianshu.io/upload_images/1746191-2b9910fcca52886d.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-## 涩谷
-是一个商业区，有一个109百货大厦似乎很出名，两栋楼，一栋专门卖男士相关，一栋卖女士相关，可以去看看。
-
-![涩谷](http://upload-images.jianshu.io/upload_images/1746191-bbb041b6828fdce8.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-## 新宿
-看了很多日本电影和小说里经常出现的地名，是东京乃至于整个日本最著名的繁华商业区。
-东京真是购物的地方太多了啊，听人说起来感觉各种繁华的样子，不知道亲身体验如何了。
-
-![新宿](http://upload-images.jianshu.io/upload_images/1746191-59ae6be88684eef8.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-![新宿](http://upload-images.jianshu.io/upload_images/1746191-05908016668d1b0e.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-## 早稻田大学
-差点忘记了加上大学，逛逛不同的大学总有新鲜感，早稻田大学距离新宿比较近，可以一块去看一下。
-
-![早稻田大学](http://upload-images.jianshu.io/upload_images/1746191-ccddb5281f779527.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-## 东京大学
-也是非常出名的学校，看地图距离早稻田大学不是很远，不知道来不来得及过去。
-
-![东京大学](http://upload-images.jianshu.io/upload_images/1746191-4fc93381577a6c24.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-
-## 东京迪士尼乐园
-光是查资料，码字写到这里我都累了，感觉玩到这一天我应该已经没力气再到迪斯尼里狠玩一天了，我觉得应该在刚出行的时候，到大阪日本环球影城玩玩，迪斯尼就可以不去了。还是先标记一下地点吧，万一到时候精力充沛呢。
-主要分为世界市集、探险乐园、西部乐园、新生物区、梦幻乐园、卡通城及未来乐园等7个区，园内的舞台及广场上定时会有丰富多彩的化妆表演和趣味游行活动，比较童话梦幻，项目相对来说比较温和，适合全家出游。
-
-![东京迪士尼乐园](http://upload-images.jianshu.io/upload_images/1746191-6d4ecf490de21ce4.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-## 上野公园
-有宽永寺，德川家灵庙，东昭宫，清水堂，西乡隆盛铜像等古迹。园内还有很多博物馆。园西北有上野动物园，饲养着900多种珍禽异兽，在园内的不忍池内，终年栖息着大量野生的黑天鹅，大雁、鸳鸯等。听这描述像不像历史书里的圆明园。
-
-![上野公园](http://upload-images.jianshu.io/upload_images/1746191-2dcfe5f6248943e2.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-## 日本科学未来馆
-看这名字很有科技感啊，不过据说要有日语基础的才好，不会日语的只能看个热闹了。
-
-![日本科学未来馆](http://upload-images.jianshu.io/upload_images/1746191-3a407a6ff3082094.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-差不多了，先查一下相对位置看看怎么安排吧。
-圆形范围大概分布着东京行的主要地点，东南方向比较远的两个是迪斯尼乐园和日本科学未来馆。
-
-![东京自由行](http://upload-images.jianshu.io/upload_images/1746191-e493f7bdbb5932b0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-
-查一下交通时间：
-> 银座 -> 新宿：大概50分钟，还可以
-
-![银座 -> 新宿](http://upload-images.jianshu.io/upload_images/1746191-1eeeb80803da0d30.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-> 银座 -> 涩谷：25或36分钟
-
-![银座 -> 涩谷](http://upload-images.jianshu.io/upload_images/1746191-e6eaed351e06cbb2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-> 银座 -> 东京迪斯尼：30分钟左右
-
-![银座 -> 东京迪斯尼](http://upload-images.jianshu.io/upload_images/1746191-1c5bd7942be216b9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-
-还有一个重要的点是东京是最后一站了，27号上午要从东京成田机场起飞，要把机场的交通查一下，是头一天到机场还是第二天起早过去。
-
-> 银座 -> 机场： 大概1.5小时，去机场要提前2个小时左右吧，10左右起飞的话，那早上6点多钟出发，或者头一天到机场附近找一个酒店比较靠谱。
-
-![银座 -> 机场](http://upload-images.jianshu.io/upload_images/1746191-f39fd82c1e018e70.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-> 那酒店就在银座附近预定，如果太贵偏一些感觉交通也可以，24号到了之后在银座逛逛，晚上到秋叶原电器街逛一下。25号到早稻田大学，新宿逛一下，下午去涩谷。26号到浅草寺，下午找个地方泡个温泉，休息一下，如果要头一天晚上到机场附近住就坐车去机场，如果第二天一早走，晚上可以去六本木和东京塔看看。
 
 ---
 ---
