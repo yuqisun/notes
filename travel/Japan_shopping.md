@@ -19,6 +19,14 @@
 ### 6.化妆品 --- Zhu,Qian
 ![化妆品](http://upload-images.jianshu.io/upload_images/1746191-12be9e347f07a69d.jpg)
 
+### 7.蓝牙耳机Sony xb70bt 已经买好了
+
+### 8.剃须刀
+
+### 9.腰带 --- baba
+
+### 10.包包 --- mama
+
 ---
 
 ## 必须在免税店买
