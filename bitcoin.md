@@ -8,3 +8,5 @@ https://blockexplorer.com/
 
 http://news.blockchaininformer.com/
 
+http://coinmarketcap.com/
+
