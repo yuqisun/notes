@@ -91,3 +91,10 @@ Bitmaps 最大的优点就是节省存储信息所需要的空间。例如用一
 
 BITPOS 和 BITCOUNT 都可以对string 在字节范围内(byte range)操作，而不是对整个string长度。可能就是可以一点一点地读的意思吧。
 
+### HyperLogLogs
+HyperLogLog 是一个概率性数据结构，用于count unique things(用来估计set的基数)。不需要消耗很多内存去count基数，因为HyperLogLogs只包含一个状态不包括每一个元素，最坏情况下需要12k内存，如果元素比较少，则size远远小于这个数。
+
+#### 引用
+* [redis数据结构HyperLogLog](https://www.cnblogs.com/ysuzhaixuefei/p/4052110.html)
+
+
