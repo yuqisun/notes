@@ -41,4 +41,24 @@ Redis lists 由链表实现。即使链表中已经有百万级元素，在头�
 
 Redis lists用链表实现是因为数据库系统对于向长list快速追加元素的要求很高，因为数据库中原本很可能就已经存在很多元素了，必须保证每次添加保持常量复杂度，如果是数组实现，每次添加需要O(N)，即已经存在的元素个数，会导致数据越多存储越慢。另一个优势是Redis Lists可以在常量时间取得固定长度(LRANGE，去一定范围的list值)。
 
+#### Common use cases for lists
+* 记录用户向社交网络post的最新动态
+* 进程间通信，用consumer-producer模式，生产者push进list，消费者consume。
+> 例如：
+> * Every time a user posts a new photo, we add its ID into a list with LPUSH
+> * When users visit the home page, we use LRANGE 0 9 in order to get the latest 10 posted items.
+
+#### Capped lists
+list 保留最新的几条元素删除其他老元素可以用 LTRIM
+
+
+LRANGE：
+
+Time complexity: O(S+N) where S is the distance of start offset from HEAD for small lists, from nearest end (HEAD or TAIL) for large lists; and N is the number of elements in the specified range.
+
+在offset距离head或者tail很近并且range比较小的时候，S 和 N 比较大就近似复杂度常量时间了。
+
+#### Blocking operations on lists
+
+
 
