@@ -18,7 +18,7 @@ Redis keys是二进制安全的，意味着可以用任何二进制的序列作�
 作为key有几条规则：
 * key 不要太长。例如一个1024 bytes 的key不仅消耗内存且查找key需要付出昂贵的key对比。即使在很长的key已经存在的情况下，用SHA1等算法将其hash是一个更好选择，尤其是从内存和带宽方面考虑。
 * key 太短也不好，不易读。太长太短都不行，自己找平衡点。
-* 推荐加一个schema。例如 "object-type:id"，"user:1000"。点和横杠在多个词中经常使用，如"comment:1234:reply.to" 或者 "comment:1234:reply-to"。
+* 推荐加一个schema。例如 "object-type:id"，"user:1000"。点和横杠在多个词中经常使用，如'comment:1234:reply.to' 或者 'comment:1234:reply-to'。
 * key最大的size是512M
 
 > 关于key最大size的问题，找到两个链接，感觉意思是单个key和单个value的最大值都是512M，对于每个数据类型都是512M，还不清楚这个值是怎么制定的。
