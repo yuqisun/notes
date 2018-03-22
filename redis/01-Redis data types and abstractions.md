@@ -29,3 +29,16 @@ Redis keys是二进制安全的，意味着可以用任何二进制的序列作�
 > * [Max Key Size?](https://groups.google.com/forum/#!topic/redis-db/HH4z-8mHNLM)
 > * [Redis Performance - Does key length matter?](http://adamnengland.com/2012/11/15/redis-performance-does-key-length-matter/)
 
+### Redis Strings
+`set mykey somevalue`
+SET 会替代key中任何已经存在的值。
+Value 的size不能超过 512M。
+
+### Redis Lists
+Redis lists 由链表实现。即使链表中已经有百万级元素，在头或尾新增一个元素只需常量时间。所以 LPUSH 时间复杂度是 O(1)，即向一个有10个元素的list中push和向一个10 000 000 元素的list中push 时间是一样的。
+
+缺点就是，数组实现的list当用下标索引搜索元素的时候非常快(O(1))，链表实现的list就没那么快了，取决于该索引所占的元素总数的比例。比如要在10k个元素的list中找索引是500的就得一个一个查找到500了。
+
+Redis lists用链表实现是因为数据库系统对于向长list快速追加元素的要求很高，因为数据库中原本很可能就已经存在很多元素了，必须保证每次添加保持常量复杂度，如果是数组实现，每次添加需要O(N)，即已经存在的元素个数，会导致数据越多存储越慢。另一个优势是Redis Lists可以在常量时间取得固定长度(LRANGE，去一定范围的list值)。
+
+
