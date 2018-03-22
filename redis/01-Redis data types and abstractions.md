@@ -60,5 +60,34 @@ Time complexity: O(S+N) where S is the distance of start offset from HEAD for sm
 
 #### Blocking operations on lists
 
+* RPOPLPUSH
+* BRPOPLPUSH
 
+#### Automatic creation and removal of keys
+Redis 会在list为空的时候自动删除key，在试图添加且list不存在的时候自动创建list。List，Set，Sorted Set，Hashes都如此。
+
+三条rules：
+ 1. 当添加元素到聚合数据类型的时候，如果目标key不存在则在添加之前空数据类型会被创建
+ 2. 当我们从数据类型移出元素，如果值为空，则key被自动销毁
+ 3. 在调用 read-only 命令如LLEN，或者用于移除元素的写命令时，如果key为空，则返回结果与调用一个指向空value 的key是一样的
+ 
+
+### Bitmaps
+1 byte = 8 bits
+
+因为字符串是二进制安全的并且最大size是512M(2^29 bytes)，即 2^29 * 8(bits) = 2^32(4G) 个不同的bits。
+
+Bit 操作有两种：
+
+ 1. 常量时间操作，例如把1置成0，或者取值
+ 2. 对于bit 组的操作，例如count给定范围的bits的数量
+
+Bitmaps 最大的优点就是节省存储信息所需要的空间。例如用一个bit来标记用户是否选择订阅 newsletter，1代表订阅，0代表不订阅，则用512M内存可以标记40亿(4G)个用户。
+
+三个操作bits组的命令：
+ 1. BITOP
+ 2. BITCOUNT
+ 3. BITPOS
+
+BITPOS 和 BITCOUNT 都可以对string 在字节范围内(byte range)操作，而不是对整个string长度。可能就是可以一点一点地读的意思吧。
 
