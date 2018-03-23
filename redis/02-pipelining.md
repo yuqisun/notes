@@ -12,5 +12,5 @@ Redis 是一个 TCP server，用 client-server模式，这就是所谓的 Reques
 ### It's not just a matter of RTT
 Pipelining 不止在RTT(往返时间上降低消耗)，在socket I/O 上也节省很多消耗。在不用pipelining的时候，每个command调用一次`read()`和`write()`系统调用，这需要从用户空间(user land)到内核空间(kernel land)，这上下文切换是一笔巨大的开销。
 
-当使用pipelining的时候，多个命令只需要一次`read()`系统调用，多个回复只需要一次`write()`系统调用来传输。因此，每秒能处理的查询随着pipeline的长度成线性增长。最终达到不使用pipeline性能的10倍*(大概是这个意思)*。
+当使用pipelining的时候，多个命令只需要一次`read()`系统调用，多个回复只需要一次`write()`系统调用来传输。因此，每秒能处理的查询随着pipeline的长度成线性增长。最终达到不使用pipeline性能的10倍 *(大概是这个意思)*。
 
