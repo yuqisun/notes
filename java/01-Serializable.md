@@ -1,7 +1,7 @@
 Serializable 没有任何方法和字段，仅用于标识是否可以序列化。
 
 可序列化类的所有子类型本身都是可序列化的。在序列化和反序列化过程中，如果类需要特殊处理，则必须实现以下签名的特殊方法：
-```
+```java_holder_method_tree
  private void writeObject(java.io.ObjectOutputStream out)
      throws IOException
  private void readObject(java.io.ObjectInputStream in)
@@ -45,6 +45,29 @@ transient 变量的值被设为初始值，如 int 型的是 0，对象型的是
 defaultReadObject 方法。用户自定义的 writeObject 和 readObject 方法可以允许用户控制序列化的过程，
 比如可以在序列化的过程中动态改变序列化的数值。基于这个原理，可以在实际应用中得到使用，用于敏感字段的加密工作。
 
+```java_holder_method_tree
+ObjectOutputStream out = new ObjectOutputStream(
+new FileOutputStream("result.obj"));
+Test test = new Test();
+//试图将对象两次写入文件
+out.writeObject(test);
+out.flush();
+System.out.println(new File("result.obj").length());
+out.writeObject(test);
+out.close();
+System.out.println(new File("result.obj").length());
+
+ObjectInputStream oin = new ObjectInputStream(new FileInputStream(
+"result.obj"));
+//从文件依次读出两个文件
+Test t1 = (Test) oin.readObject();
+Test t2 = (Test) oin.readObject();
+oin.close();
+
+//判断两个引用是否指向同一个对象
+System.out.println(t1 == t2);
+```
+
 * 对同一对象两次写入文件，打印出写入一次对象后的存储大小和写入两次后的存储大小，然后从文件中反序列化出两个对象，比较这两个对象是否为同一对象。
 
 > 一般的思维是，两次写入对象，文件大小会变为两倍的大小，反序列化时，由于从文件读取，生成了两个对象，判断相等时应该是输入 false 才对。
@@ -53,7 +76,7 @@ defaultReadObject 方法。用户自定义的 writeObject 和 readObject 方法�
 而只是再次存储一份引用，因此增加的存储空间就是新增引用和一些控制信息的空间。反序列化时，恢复引用关系，二者相等，
 使用`obj1 == obj2` 输出 true。该存储规则极大的节省了存储空间。
 
-```aidl
+```java_holder_method_tree
 ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream("result.obj"));
 Test test = new Test();
 test.i = 1;
