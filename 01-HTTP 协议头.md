@@ -6,4 +6,4 @@ Accept: audio/*;q=0.2, audio/basic
 ```
 表示 audio/basic 类型的资源优先，如果没有，就随便其它什么格式的 audio 资源都可以。
 q 的取值范围是(0-1]，其具体值并没有意义，它仅用来排序优先级，如果没有 q，默认 q=1，也就是最高优先级。
-按照逗号分割，`audio/*;q=0.2`　是一组的，`audio/basic` 是一组的，等同于 `audio/basic;q=1`。
+***按照逗号分割，`audio/*;q=0.2`　是一组的，`audio/basic` 是一组的，等同于 `audio/basic;q=1`。***
