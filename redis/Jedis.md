@@ -13,3 +13,10 @@
 #### Redis Installation
 Redis 没有官方支持 Windows，[Github](https://github.com/MicrosoftArchive/redis)上有一个可以用。
 启动之后可以`Jedis jedis = new Jedis();`连接 Redis了。
+
+默认连接本机默认端口，如果有修改端口或者连接远程机器，可以通过参数传入。
+
+#### Redis Data Structures
+大多数命令都支持，并且和方法名相同。
+
+##### Strings
