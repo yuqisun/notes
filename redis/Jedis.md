@@ -1,6 +1,6 @@
 ##### [Intro to Jedis – the Java Redis Client Library](http://www.baeldung.com/jedis-java-redis-client-library)
 
-#### Maven Dependencies
+### Maven Dependencies
 ```
 <dependency>
     <groupId>redis.clients</groupId>
@@ -16,7 +16,15 @@ Redis 没有官方支持 Windows，[Github](https://github.com/MicrosoftArchive/
 
 默认连接本机默认端口，如果有修改端口或者连接远程机器，可以通过参数传入。
 
-#### Redis Data Structures
+### Redis Data Structures
 大多数命令都支持，并且和方法名相同。
 
 ##### Strings
+Set
+`jedis.set("events/city/rome", "32,15,223,828");`
+
+Get
+`String cachedResponse = jedis.get("events/city/rome");`
+
+##### Lists
+
