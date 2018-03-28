@@ -34,6 +34,7 @@ jedis.lpush("queue#tasks", "secondTask");
 ```
 
 RPOP
+
 `String task = jedis.rpop("queue#tasks");`
 可以把对象序列化之后作为 string进行持久化，因此 queue中的消息可以携带更复杂的数据。
 
