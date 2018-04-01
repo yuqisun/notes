@@ -17,6 +17,8 @@ List(和Array)中的对象如果实现了这个接口就可以使用 `Collection
 例如，向一个没有指定比较器的 sorted set中添加两个 keys a 和 b，其中 `(!a.equals(b) && a.compareTo(b) == 0)` 
 即 equals方法判定两个对象不同而 compareTo方法判断两个方法相同(compareTo 与 equals不一致)，第二次 `add`操作返回 false
 (并且sorted set的 size不会增加)，因为 a 和 b对于sorted set来说是相等的。
+[Code Sample - Student](https://github.com/yuqisun/jdktest/tree/master/src/main/java/comparable)
+
 
 实际上，所有实现 Comparable 的 Java 核心类都具有与 equals 一致的自然排序。java.math.BigDecimal 是个例外，
 它的自然排序将值相等但精确度不同的 BigDecimal 对象（比如 4.0 和 4.00）视为相等。
