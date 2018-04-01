@@ -11,4 +11,6 @@ List(和Array)中的对象如果实现了这个接口就可以使用 `Collection
 ***注意，null 不是任何类的实例，即使 e.equals(null) 返回 false，e.compareTo(null) 也将抛出 NullPointerException。***
 
 强烈建议自然排序与 equals一致。这是因为对于没有 comparators 的 sorted sets(和sorted maps)来说，当其所包含的元素的
-自然排序与 equals不一致时，表现奇怪(strangely)。
+自然排序与 equals不一致时，表现奇怪(strangely)。尤其是，这样一个 sorted set (or sorted map) 违反了set (or map) 在
+`equals` 方法上定义的 general contract。
+
