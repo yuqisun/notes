@@ -14,3 +14,7 @@ List(和Array)中的对象如果实现了这个接口就可以使用 `Collection
 自然排序与 equals不一致时，表现奇怪(strangely)。尤其是，这样一个 sorted set (or sorted map) 违反了set (or map) 在
 `equals` 方法上定义的 general contract。
 
+例如，向一个没有指定比较器的 sorted set中添加两个 keys a 和 b，其中 `(!a.equals(b) && a.compareTo(b) == 0)` 
+即 equals方法判定两个对象不同而 compareTo方法判断两个方法相同(compareTo 与 equals不一致)，第二次 `add`操作返回 false
+(并且sorted set的 size不会增加)，因为 a 和 b对于sorted set来说是相等的。
+
