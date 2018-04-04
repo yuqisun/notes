@@ -19,3 +19,5 @@ System.out.println(new Date(Integer.MAX_VALUE*1000L));
 * [关于编程语言中的“1970年1月1日0点”](https://www.cnblogs.com/xingzoudeyishu/p/5400927.html)
 * [Why are dates calculated from January 1st, 1970 in Java?](https://www.quora.com/Why-are-dates-calculated-from-January-1st-1970-in-Java)
 * [Why is 1/1/1970 the “epoch time”?](https://stackoverflow.com/questions/1090869/why-is-1-1-1970-the-epoch-time/1090945#1090945)
+* [IEEE 754格式是什么?](https://www.zhihu.com/question/21711083)
+
