@@ -13,3 +13,9 @@ System.out.println(new Date(Integer.MAX_VALUE*1000L));
 > 2038-01-19
 ```
 
+对于现在 64位的时间可以表示 2^63s = 106751991167300.64592592592592593 days = 292471208677.53601623541349568747 years，大概 2924.7 亿年。不必担心时间越界的问题。
+
+#### 引用
+* [关于编程语言中的“1970年1月1日0点”](https://www.cnblogs.com/xingzoudeyishu/p/5400927.html)
+* [Why are dates calculated from January 1st, 1970 in Java?](https://www.quora.com/Why-are-dates-calculated-from-January-1st-1970-in-Java)
+* [Why is 1/1/1970 the “epoch time”?](https://stackoverflow.com/questions/1090869/why-is-1-1-1970-the-epoch-time/1090945#1090945)
