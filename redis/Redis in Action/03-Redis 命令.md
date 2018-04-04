@@ -14,4 +14,6 @@ Redis 中，字符串可以存储以下3种类型的值：
 
 Redis存储的二进制位是按照偏移量从高到低排列的。 001(32)0001(1) -> 32+1=33 
 
+#### 列表
+Redis 中 RANGE的偏移量 start, end 的元素都是包含在其中的，例如 list 的 LRANGE，String 的 GETRANGE，不像 Java 是左闭右开的 [start, end)
 
