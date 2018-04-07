@@ -21,3 +21,4 @@ PSUBSCRIBE f*
 ```
 上边的例子，如果一个 message 发送到channel foo，客户端将收到两条message，一条类型是message，一条类型是pmessage。
 
+##### The meaning of the subscription count with pattern matching
