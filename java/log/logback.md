@@ -1,5 +1,8 @@
 `<logger>`用来设置某一个包或者具体某一个类的日志打印级别、以及指定`<appender>`。 `<logger>`可以包含零个或者多个`<appender-ref>`元素，
-标识这个appender将会添加到这个logger。`<logger>`仅有一个name属性、一个可选的level属性和一个可选的additivity属性。
+标识这个appender将会添加到这个logger。`<logger>`仅有一个name属性、一个可选的level属性和一个可选的additivity属性:
+* name：用来指定受此logger约束的某一个包或者具体的某一个类
+* level：用来设置打印级别，五个常用打印级别从低至高依次为TRACE、DEBUG、INFO、WARN、ERROR，如果未设置此级别，那么当前logger会继承上级的级别
+* additivity：是否向上级logger传递打印信息，默认为true
 
 `<root>`也是<logger>元素，但是它是根logger，只有一个level属性，因为它的name就是ROOT。
 
@@ -26,4 +29,7 @@
 * 没有配置additivity，那么additivity=true，表示此`<logger>`的打印信息向父级`<root>`传递
 * 没有配置`<appender-ref>`，表示此`<logger>`不会打印出任何信息
 
+
+由此可知，`<logger>`的打印信息向<root>传递，`<root>`使用"STDOUT"这个`<appender>`打印出所有大于等于debug级别的日志。
+举一反三，我们将`<logger>`的additivity配置为false，那么控制台应该不会打印出任何日志，因为`<logger>`的打印信息不会向父级`<root>`传递且`<logger>`没有配置任何`<appender>`。
 
