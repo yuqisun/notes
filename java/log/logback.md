@@ -33,3 +33,15 @@
 由此可知，`<logger>`的打印信息向<root>传递，`<root>`使用"STDOUT"这个`<appender>`打印出所有大于等于debug级别的日志。
 举一反三，我们将`<logger>`的additivity配置为false，那么控制台应该不会打印出任何日志，因为`<logger>`的打印信息不会向父级`<root>`传递且`<logger>`没有配置任何`<appender>`。
 
+---
+
+`<encoder>`和`<layout>`定义`<pattern>`:
+* `<encoder>`是0.9.19版本之后引进的，以前的版本使用`<layout>`，logback极力推荐的是使用`<encoder>`而不是`<layout>`
+* 最常用的FileAppender和它的子类的期望是使用`<encoder>`而不再使用`<layout>`
+
+
+##### 异步写日志
+
+#### 引用
+* [Java 日志框架：logback 详解](https://mp.weixin.qq.com/s/UckDkMTmhiJnPsYiSnNoPw)
+
