@@ -39,5 +39,17 @@ private void grow(int minCapacity) {
 }
 ```
 
+Arrays.copyOf 又调用 System.arraycopy 方法来把原来的数组 copy 到容量变大的 数组中。这一步是比较消耗资源的，所以如果频繁插入，扩容就要考虑 LinkedList。
+```
+public static <T,U> T[] copyOf(U[] original, int newLength, Class<? extends T[]> newType) {
+    @SuppressWarnings("unchecked")
+    T[] copy = ((Object)newType == (Object)Object[].class)
+        ? (T[]) new Object[newLength]
+        : (T[]) Array.newInstance(newType.getComponentType(), newLength);
+    System.arraycopy(original, 0, copy, 0,
+                     Math.min(original.length, newLength));
+    return copy;
+}
+```
 
-    
+
