@@ -39,7 +39,7 @@ private void grow(int minCapacity) {
 }
 ```
 
-Arrays.copyOf 又调用 System.arraycopy 方法来把原来的数组 copy 到容量变大的 数组中。这一步是比较消耗资源的，所以如果频繁插入，扩容就要考虑 LinkedList。
+Arrays.copyOf 又调用 System.arraycopy 方法来把原来的数组 copy 到容量变大的 数组中，所以如果频繁插入，扩容就要考虑 LinkedList。
 ```
 public static <T,U> T[] copyOf(U[] original, int newLength, Class<? extends T[]> newType) {
     @SuppressWarnings("unchecked")
@@ -51,5 +51,22 @@ public static <T,U> T[] copyOf(U[] original, int newLength, Class<? extends T[]>
     return copy;
 }
 ```
+
+把 ArrayList当作参数传入的时候，因为传的是引用，所以如果要避免数组被修改，要考虑到用 Arrays.copyOf 来复制一个新的数组。
+
+在指定 index 的地方插入元素，要调用`System.arraycopy`把数组向后移动，然后在当前位置加入元素。
+```
+public void add(int index, E element) {
+    rangeCheckForAdd(index);
+
+    ensureCapacityInternal(size + 1);  // Increments modCount!!
+    System.arraycopy(elementData, index, elementData, index + 1,
+                     size - index);
+    elementData[index] = element;
+    size++;
+}
+```
+
+
 
 
