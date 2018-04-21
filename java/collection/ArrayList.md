@@ -1,3 +1,4 @@
+##### 实现
 ArrayList 内部是一个 Object 数组：
 
 ```
@@ -15,6 +16,7 @@ public ArrayList(int initialCapacity) {
 }
 ```
 
+##### add
 当 add一个元素的时候，首先检查 List容量，`ensureCapacityInternal(size + 1);`，如果 List为空则取 `minCapacity = Math.max(DEFAULT_CAPACITY, minCapacity);`，其中默认容量大小为 10。
 ```
 public boolean add(E e) {
@@ -52,6 +54,32 @@ public static <T,U> T[] copyOf(U[] original, int newLength, Class<? extends T[]>
 }
 ```
 
+##### get
+直接用数组下标获取
+```
+E elementData(int index) {
+    return (E) elementData[index];
+}
+```
+
+##### indexOf
+如果是 null则遍历元素是否为 null `elementData[i]==null`，`==` 较调用 `equals` 快一些，否则调用 equals 方法比较。
+```
+public int indexOf(Object o) {
+    if (o == null) {
+        for (int i = 0; i < size; i++)
+            if (elementData[i]==null)
+                return i;
+    } else {
+        for (int i = 0; i < size; i++)
+            if (o.equals(elementData[i]))
+                return i;
+    }
+    return -1;
+}
+```
+
+##### 当作参数传入
 把 ArrayList当作参数传入的时候，因为传的是引用，所以如果要避免数组被修改，要考虑到用 Arrays.copyOf 来复制一个新的数组。
 
 在指定 index 的地方插入元素，要调用`System.arraycopy`把数组向后移动，然后在当前位置加入元素。
