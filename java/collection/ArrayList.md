@@ -54,6 +54,44 @@ public static <T,U> T[] copyOf(U[] original, int newLength, Class<? extends T[]>
 }
 ```
 
+##### remove
+操作数组的根本就是找到对应元素的下标，remove 有两种，一个是直接传入下标来删除，另一个是传入对象，进行对比查找之后删除，这就有两种情况，一个是该元素存在，一个不存在。所以按 index 删除返回的是被remove的元素，按元素删除返回的是 true/false。
+```
+public E remove(int index) {
+    rangeCheck(index);
+
+    modCount++;
+    E oldValue = elementData(index);
+
+    int numMoved = size - index - 1;
+    if (numMoved > 0)
+        System.arraycopy(elementData, index+1, elementData, index,
+                         numMoved);
+    elementData[--size] = null; // clear to let GC do its work
+
+    return oldValue;
+}
+```
+
+```
+public boolean remove(Object o) {
+    if (o == null) {
+        for (int index = 0; index < size; index++)
+            if (elementData[index] == null) {
+                fastRemove(index);
+                return true;
+            }
+    } else {
+        for (int index = 0; index < size; index++)
+            if (o.equals(elementData[index])) {
+                fastRemove(index);
+                return true;
+            }
+    }
+    return false;
+}
+```
+
 ##### get
 直接用数组下标获取
 ```
