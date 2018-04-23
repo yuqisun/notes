@@ -11,5 +11,4 @@ default void forEach(Consumer<? super T> action) {
 }
 ```
 
-遍历器(iterator) 有两种实现，一种是单向的，向后遍历(Iterator)，一种是双向，可以向后也可以向前遍历(ListIterator)。
-
+遍历器(iterator) 有两种实现，一种是单向的，向后遍历(Iterator)，一种是双向，可以向后也可以向前遍历(ListIterator)，并且多了 `void set(E e);`和`void add(E e);` 方法。
