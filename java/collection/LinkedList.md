@@ -42,7 +42,7 @@ public void add(int index, E element) {
 }
 ```
 
-其中，通过 index 获取到 node这一步，因为 LinkedList 不是数组实现，所以要一个一个的去遍历，为了加快速度，使用了一次二分法从中间分开，然后进行查找。
+其中，通过 index 获取到 node这一步，因为 LinkedList 不是数组实现，所以要一个一个的去遍历，为了加快速度，使用了一次二分法从中间分开，然后进行查找。如果 index 在前半部分就从前向中间查找，如果在后半部分则从后到中间查找。
 ```
 Node<E> node(int index) {
     // assert isElementIndex(index);
