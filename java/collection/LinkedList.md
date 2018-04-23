@@ -17,3 +17,48 @@ private static class Node<E> {
 ```
 
 ##### add
+add 默认是加在末尾，另外也可以指定 index 或者加在头上。
+```
+void linkLast(E e) {
+    final Node<E> l = last;
+    final Node<E> newNode = new Node<>(l, e, null);
+    last = newNode;
+    if (l == null)
+        first = newNode;
+    else
+        l.next = newNode;
+    size++;
+    modCount++;
+}
+```
+```
+public void add(int index, E element) {
+    checkPositionIndex(index);
+
+    if (index == size)
+        linkLast(element);
+    else
+        linkBefore(element, node(index));
+}
+```
+
+其中，通过 index 获取到 node这一步，因为 LinkedList 不是数组实现，所以要一个一个的去遍历，为了加快速度，使用了一次二分法从中间分开，然后进行查找。
+```
+Node<E> node(int index) {
+    // assert isElementIndex(index);
+
+    if (index < (size >> 1)) {
+        Node<E> x = first;
+        for (int i = 0; i < index; i++)
+            x = x.next;
+        return x;
+    } else {
+        Node<E> x = last;
+        for (int i = size - 1; i > index; i--)
+            x = x.prev;
+        return x;
+    }
+}
+```
+
+
