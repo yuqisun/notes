@@ -11,7 +11,7 @@ static class Node<K,V> implements Map.Entry<K,V> {
 ```
 
 ##### hash
-获取 key 的hash值，`key.hashCode()`调用的
+获取 key 的hash值，`key.hashCode()`调用的是 native 方法`public native int hashCode();`，其描述是 `converting the **internal address** of the object into an integer, but this implementation technique is not required by the Java&trade; programming language`，其中 internal address 大概是虚拟机中的地址，所以hashcode在 jvm重启之后就未必和之前相同了。
 
 ```
 static final int hash(Object key) {
