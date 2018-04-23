@@ -61,4 +61,40 @@ Node<E> node(int index) {
 }
 ```
 
+##### get(int index)
+`E get(int index)`就是调用上边的 `Node<E> node(int index)`通过下标来找到 node。
+```
+public E get(int index) {
+    checkElementIndex(index);
+    return node(index).item;
+}
+```
+
+##### remove
+默认移除第一个。
+
+##### indexOf
+通过遍历比较对象，下标自增。
+```
+public int indexOf(Object o) {
+    int index = 0;
+    if (o == null) {
+        for (Node<E> x = first; x != null; x = x.next) {
+            if (x.item == null)
+                return index;
+            index++;
+        }
+    } else {
+        for (Node<E> x = first; x != null; x = x.next) {
+            if (o.equals(x.item))
+                return index;
+            index++;
+        }
+    }
+    return -1;
+}
+```
+
+
+
 
