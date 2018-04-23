@@ -19,3 +19,11 @@ static final int hash(Object key) {
     return (key == null) ? 0 : (h = key.hashCode()) ^ (h >>> 16);
 }
 ```
+java 在取得由内部地址得来的 hash code 后，又把自身右移16 位再作 '与'运算。???
+```
+static final int hash(Object key) {
+    int h;
+    return (key == null) ? 0 : (h = key.hashCode()) ^ (h >>> 16);
+}
+```
+
