@@ -46,7 +46,37 @@ static final int hash(Object key) {
 ```
 
 ##### put
-
+先比较 hashcode，如果相同再比较key，如果相同则覆盖这个 node。
+```
+if (p.hash == hash &&
+    ((k = p.key) == key || (key != null && key.equals(k))))
+    e = p;
+```
+碰撞之后的 Node会被放进一个 bin中，如果 binCount >= TREEIFY_THRESHOLD - 1，会调用`treeifyBin(tab, hash);`生成红黑树。
+```
+static final int TREEIFY_THRESHOLD = 8;
+......
+Node<K,V> e; K k;
+if (p.hash == hash &&
+    ((k = p.key) == key || (key != null && key.equals(k))))
+    e = p;
+else if (p instanceof TreeNode)
+    e = ((TreeNode<K,V>)p).putTreeVal(this, tab, hash, key, value);
+else {
+    for (int binCount = 0; ; ++binCount) {
+        if ((e = p.next) == null) {
+            p.next = newNode(hash, key, value, null);
+            if (binCount >= TREEIFY_THRESHOLD - 1) // -1 for 1st
+                treeifyBin(tab, hash);
+            break;
+        }
+        if (e.hash == hash &&
+            ((k = e.key) == key || (key != null && key.equals(k))))
+            break;
+        p = e;
+    }
+}
+```
 
 
 
