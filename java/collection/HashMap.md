@@ -27,3 +27,10 @@ static final int hash(Object key) {
 }
 ```
 
+
+
+
+
+### 引用
+* [Java提高篇（二六）-----hashCode](http://www.cnblogs.com/chenssy/p/3651218.html)
+
