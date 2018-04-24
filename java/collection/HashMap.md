@@ -19,7 +19,7 @@ static final int hash(Object key) {
     return (key == null) ? 0 : (h = key.hashCode()) ^ (h >>> 16);
 }
 ```
-java 在取得由内部地址得来的 hash code 后，又把自身右移16 位再作 '与'运算。???
+java 在取得由内部地址得来的 hash code 后，又把自身右移16 位再作 '异或'运算。*如果a、b两个值不相同，则异或结果为1。如果a、b两个值相同，异或结果为0*。这里异或的具体作用不是很清楚???
 ```
 static final int hash(Object key) {
     int h;
