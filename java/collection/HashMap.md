@@ -19,14 +19,33 @@ static final int hash(Object key) {
     return (key == null) ? 0 : (h = key.hashCode()) ^ (h >>> 16);
 }
 ```
-java 在取得由内部地址得来的 hash code 后，又把自身右移16 位再作 '异或'运算。*如果a、b两个值不相同，则异或结果为1。如果a、b两个值相同，异或结果为0*。这里异或的具体作用不是很清楚???
+java 在取得由内部地址得来的 hash code 后，又把自身右移16 位再作 '异或'运算。*如果a、b两个值不相同，则异或结果为1。如果a、b两个值相同，异或结果为0*。这里异或的具体作用不是很清楚，jdk注释中有一段解释，大概是说用最低廉的方式减少系统负载，同时满足合并最高位冲突？？？
+
 ```
+/**
+ * Computes key.hashCode() and spreads (XORs) higher bits of hash
+ * to lower.  Because the table uses power-of-two masking, sets of
+ * hashes that vary only in bits above the current mask will
+ * always collide. (Among known examples are sets of Float keys
+ * holding consecutive whole numbers in small tables.)  So we
+ * apply a transform that spreads the impact of higher bits
+ * downward. There is a tradeoff between speed, utility, and
+ * quality of bit-spreading. Because many common sets of hashes
+ * are already reasonably distributed (so don't benefit from
+ * spreading), and because we use trees to handle large sets of
+ * collisions in bins, we just XOR some shifted bits in the
+ * cheapest possible way to reduce systematic lossage, as well as
+ * to incorporate impact of the highest bits that would otherwise
+ * never be used in index calculations because of table bounds.
+ */
+
 static final int hash(Object key) {
     int h;
     return (key == null) ? 0 : (h = key.hashCode()) ^ (h >>> 16);
 }
 ```
 
+##### put
 
 
 
