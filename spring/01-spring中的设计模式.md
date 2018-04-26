@@ -8,7 +8,7 @@
 代理模式就是给某一个对象创建一个代理对象，而由这个代理对象控制对原对象的引用，而创建这个代理对象就是可以在调用原对象是可以增加一些额外的操作。  
 Spring Aop 中 Jdk 动态代理就是利用代理模式技术实现的。
 
-
+![001-spring-overview.png](https://raw.githubusercontent.com/yuqisun/notes/master/spring/images/002-代理模式.png)
 
 
 ### 引用
