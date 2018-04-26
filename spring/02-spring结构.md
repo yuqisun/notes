@@ -9,7 +9,7 @@ Bean 的定义、Bean 的创建以及对 Bean 的解析，他的顶级接口是 
 ##### Core 组件
 包含了很多的关键类，其中一个重要组成部分就是定义了资源的访问方式。
 
-##### Context 相关的类结构图
+##### Context 组件
 ApplicationContext 继承了 BeanFactory，这也说明了 Spring 容器中运行的主体对象是 Bean，另外 ApplicationContext 继承了 ResourceLoader 接口，使得 ApplicationContext 可以访问到任何外部资源。
 
 
