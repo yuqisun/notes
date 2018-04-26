@@ -15,4 +15,3 @@ ApplicationContext 继承了 BeanFactory，这也说明了 Spring 容器中运�
 
 ### 引用
 * [Spring 框架的设计理念与设计模式分析](https://www.ibm.com/developerworks/cn/java/j-lo-spring-principle/)
-
