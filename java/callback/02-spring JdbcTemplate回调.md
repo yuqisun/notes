@@ -5,6 +5,37 @@
 public <T> T execute(String callString, CallableStatementCallback<T> action) throws DataAccessException {
   return execute(new SimpleCallableStatementCreator(callString), action);
 }
+
+public <T> T execute(CallableStatementCreator csc, CallableStatementCallback<T> action)
+			throws DataAccessException {
+
+		Assert.notNull(csc, "CallableStatementCreator must not be null");
+		Assert.notNull(action, "Callback object must not be null");
+		if (logger.isDebugEnabled()) {
+			String sql = getSql(csc);
+			logger.debug("Calling stored procedure" + (sql != null ? " [" + sql  + "]" : ""));
+		}
+
+		Connection con = DataSourceUtils.getConnection(getDataSource());
+		CallableStatement cs = null;
+		try {
+			Connection conToUse = con;
+			if (this.nativeJdbcExtractor != null) {
+				conToUse = this.nativeJdbcExtractor.getNativeConnection(con);
+			}
+			cs = csc.createCallableStatement(conToUse);
+			applyStatementSettings(cs);
+			CallableStatement csToUse = cs;
+			if (this.nativeJdbcExtractor != null) {
+				csToUse = this.nativeJdbcExtractor.getNativeCallableStatement(cs);
+			}
+			T result = action.doInCallableStatement(csToUse);
+			handleWarnings(cs);
+			return result;
+		}
+    
+    ...
+    ...
 ```
 
 举个例子：　　
