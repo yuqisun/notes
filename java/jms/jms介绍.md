@@ -7,4 +7,5 @@
 
 #### 怎么用
 
-#### 
+### 引用
+* [JMS学习一(JMS介绍)](https://blog.csdn.net/qh_java/article/details/55224259)
