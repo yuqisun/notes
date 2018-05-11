@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>Position Service</title>
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <style>
+        html, body, #container {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+<div id="container"></div>
+<script src="js/anychart-base.min.js"></script>
+<script src="js/anychart-stock.min.js"></script>
+<script src="js/anychart-exports.min.js"></script>
+<script src="js/anychart-ui.min.js"></script>
+<script src="js/jquery.min.js"></script>
+<script type="text/javascript">
+        anychart.onDocumentReady(function () {
+            var prec = 60;
+            // create data table on loaded data
+            var dataTable = anychart.data.table('x');
+            dataTable.addData(getData());
+
+            // map loaded data
+            var mapping = dataTable.mapAs({x: 'x', value: 'value'});
+
+            // create stock chart
+            var chart = anychart.stock();
+
+            // add a series
+            chart.plot(0).line(mapping);
+
+            // create scroller series with mapped data
+            chart.scroller().column(mapping);
+
+            // adjust the title
+            chart.title("hits details [prec is " + prec + "]");
+
+            // set container id for the chart
+            chart.container('container');
+
+            // initiate chart drawing
+            chart.draw();
+        });
+
+        function getData(){
+            var data;
+            $.ajax({
+                async: false,
+                cache: false,
+                url: 'http://localhost:8080/getCounter/60',
+                dataType: 'text',
+                success: function(resp) {
+                    console.log('---------  1  ----------');
+                    console.log(resp);
+                    console.log(JSON.parse(resp));
+                    data=JSON.parse(resp);
+                }
+
+            });
+            //data = [{'x':'05.04.2010 17:31:50', 'value':7},{'x':'05.04.2010 17:30:05', 'value':2}];
+            console.log('---------  2  ----------');
+            data = [{"x":"05.04.2010 17:31:50", "value":7},{"x":"05.04.2010 17:30:05", "value":2}];
+            console.log(data);
+            return data;
+        }
+    </script>
+</body>
+</html>
