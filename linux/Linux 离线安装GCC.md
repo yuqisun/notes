@@ -3,7 +3,7 @@
 首先按照这个文章下载需要的 rpm包，但是不要用 rpm 命令一个一个安装，使用第二个文章里的 `rpm -Uvh *.rpm --nodeps --force`进行安装，再 `gcc -v`验证一下安装成功:
 
 ```
-[root@hostname]# rpm -Uvh *.rpm --nodeps --force
+[root@hostname gcc]# rpm -Uvh *.rpm --nodeps --force
 warning: cloog-ppl-0.15.7-1.2.el6.x86_64.rpm: Header V3 RSA/SHA256 Signature, key ID c105b9de: NOKEY
 Preparing...                ########################################### [100%]
    1:glibc-common           ########################################### [  8%]
@@ -23,7 +23,7 @@ Preparing...                ########################################### [100%]
 
 ---
 
-[root@sd-a539-a8be gcc]# gcc -v
+[root@hostname gcc]# gcc -v
 Using built-in specs.
 Target: x86_64-redhat-linux
 Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-languages=c,c++,objc,obj-c++,java,fortran,ada --enable-java-awt=gtk --disable-dssi --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-1.5.0.0/jre --enable-libgcj-multifile --enable-java-maintainer-mode --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --disable-libjava-multilib --with-ppl --with-cloog --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux
