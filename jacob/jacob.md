@@ -2,6 +2,8 @@
 
 [java调用outlook](https://blog.csdn.net/cbjcry/article/details/70154765)
 
+引入 zip 包中的jar，不是网上的 net.sf.jacob-project
+
 ```java_holder_method_tree
 Exception in thread "main" com.jacob.com.ComFailException: Can't get object clsid from progid
 	at com.jacob.com.Dispatch.createInstanceNative(Native Method)
