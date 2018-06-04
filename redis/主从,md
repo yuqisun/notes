@@ -1,0 +1,8 @@
+默认情况下redis数据库充当slave角色时是只读的不能进行写操作，如果试图写入会抱错：
+```
+localhost:6380> set test 34
+(error) READONLY You can't write against a read only slave.
+```
+
+可以在配置文件中开启非只读:slave-read-only no
+
