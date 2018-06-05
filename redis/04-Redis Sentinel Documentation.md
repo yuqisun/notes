@@ -42,3 +42,13 @@ sentinel parallel-syncs resque 5
 quorum 是可以认定master不工作的 Sentinel数量，满足这个数只是能够认定故障，要想真正执行故障转移，还需要投票选举 leader来执行。例如一共有5个 Sentinel，quorum设置为2， 当有2个 sentinel 同意master不可能访问的时候，即可以认定master发生了故障，其中一个 sentinel会试图开始故障转移，这时候需要至少3个 Sentinel是可用的，因为这样才能投票给两个中的一个来选举出一个 leader，真正执行故障转移。
 
 
+### A quick tutorial
+```
+port 5000
+sentinel monitor mymaster 127.0.0.1 6379 2
+sentinel down-after-milliseconds mymaster 5000
+sentinel failover-timeout mymaster 60000
+sentinel parallel-syncs mymaster 1
+```
+另外的配置只有port不同。
+
