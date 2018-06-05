@@ -15,3 +15,30 @@ Sentinel 被设计成运行在多个Sentinel共同合作的配置中。
 1. 由多个 Sentinel同意决定 master确实不在工作，降低误报率
 2. 增加鲁棒性，有备用Sentinel。
 
+### Quick Start
+#### Sentinel的基本常识
+1. 最少需要3个Sentinel实例
+2. 3个 Sentinel在3个不同的机器上独立运行，防止同时 down
+3. Sentinel + Redis分布式系统不能保证失败期间的写入
+4. 需要客户端库支持 Sentinel
+...
+...
+
+#### 配置Sentinel
+最小配置：
+```
+sentinel monitor mymaster 127.0.0.1 6379 2
+sentinel down-after-milliseconds mymaster 60000
+sentinel failover-timeout mymaster 180000
+sentinel parallel-syncs mymaster 1
+
+sentinel monitor resque 192.168.1.3 6380 4
+sentinel down-after-milliseconds resque 10000
+sentinel failover-timeout resque 180000
+sentinel parallel-syncs resque 5
+```
+
+`sentinel monitor <master-group-name> <ip> <port> <quorum>`  
+quorum 是可以认定master不工作的 Sentinel数量，满足这个数只是能够认定故障，要想真正执行故障转移，还需要投票选举 leader来执行。例如一共有5个 Sentinel，quorum设置为2， 当有2个 sentinel 同意master不可能访问的时候，即可以认定master发生了故障，其中一个 sentinel会试图开始故障转移，这时候需要至少3个 Sentinel是可用的，因为这样才能投票给两个中的一个来选举出一个 leader，真正执行故障转移。
+
+
