@@ -8,3 +8,10 @@ Sentinel也提供一些附属功能例如 monitoring, notifications和 客户端
 * **Automatic failover.** 自动故障转移 如果master没有按照预期运行，sentinel会开启故障转移把一个 slave升级成 master，其他 slave重新配置使用新的master，正在使用的 applications 会收到新的地址
 * **Configuration provider.** 配置提供者 sentinel 扮演一个为客户端提供信息的角色。客户端连接到 sentinel 查询当前 redis master。如果发生了故障转移，sentinel 会报告新的地址
 
+### Sentinel的分布式性质
+Redis Sentinel是一个分布式系统：  
+Sentinel 被设计成运行在多个Sentinel共同合作的配置中。  
+多个Sentinel合作有几个好处：  
+1. 由多个 Sentinel同意决定 master确实不在工作，降低误报率
+2. 增加鲁棒性，有备用Sentinel。
+
