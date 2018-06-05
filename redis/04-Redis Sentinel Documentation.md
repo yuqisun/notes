@@ -44,6 +44,11 @@ quorum 是可以认定master不工作的 Sentinel数量，满足这个数只是�
 
 ### A quick tutorial
 ```
+protected-mode no
+
+daemonize yes
+logfile "/home/path/apps/redis/logs/sentinel_5000.log"
+
 port 5000
 sentinel monitor mymaster 127.0.0.1 6379 2
 sentinel down-after-milliseconds mymaster 5000
