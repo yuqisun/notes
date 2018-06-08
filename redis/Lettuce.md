@@ -17,6 +17,11 @@ Asynchronous能够更好的使用系统资源而不是浪费线程等待在网�
 * 事务
 * 使用多个数据库时
 
+##### Result handles
+约定(promise)保证了 callback/notification，所以CompletableFuture中有 Completable。
+
+`future.get()`方法会导致抛出异常，一个是在计算时可能抛出 `ExecutionException`，另一个是 `InterruptedException`，因为 `get()`会阻塞调用，阻塞的线程会在任何时间被中断(interrupted)。
+
 
 
 [高级的 Redis Java客户端 - Lettuce](https://mp.weixin.qq.com/s/juDp1WL8Vtc9Sm5KoUB7fQ)
