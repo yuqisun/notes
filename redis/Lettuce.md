@@ -22,9 +22,10 @@ Asynchronous能够更好的使用系统资源而不是浪费线程等待在网�
 
 `future.get()`方法会导致抛出异常，一个是在计算时可能抛出 `ExecutionException`，另一个是 `InterruptedException`，因为 `get()`会阻塞调用，阻塞的线程会在任何时间被中断(interrupted)。
 
+对于Blocking/long-running操作，可以使用`thenAcceptAsync()/thenRunAsync()` fork出一个新的线程。默认会使用ForkJoinPool.commonPool()，ForkJoinPool不会随着负载增加，使用默认 Executors是一个好的选择。
 
 
-[高级的 Redis Java客户端 - Lettuce](https://mp.weixin.qq.com/s/juDp1WL8Vtc9Sm5KoUB7fQ)
-
-[Introduction to Lettuce – the Java Redis Client](http://www.baeldung.com/java-redis-lettuce)
+### 引用
+* [高级的 Redis Java客户端 - Lettuce](https://mp.weixin.qq.com/s/juDp1WL8Vtc9Sm5KoUB7fQ)
+* [Introduction to Lettuce – the Java Redis Client](http://www.baeldung.com/java-redis-lettuce)
 
