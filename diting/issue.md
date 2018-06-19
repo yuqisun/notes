@@ -1,4 +1,6 @@
-同时请求过多，会 timeout
+同时请求过多，会 timeout ->   
+不是因为请求过多，可能是因为返回 connection，然后一直使用 connection的方式不对，不过
+只发现读的时候有这个问题，写却没有，改用spring data redis后好了
 ```
 java.net.ConnectException: Connection timed out: connect
 	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
