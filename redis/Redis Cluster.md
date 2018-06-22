@@ -42,6 +42,18 @@ Redis 集群节点间使用异步冗余备份（asynchronous replication），�
 
 一个主节点要被故障转移，必须是大多数主节点在至少 NODE_TIMEOUT 这么长时间里无法访问该节点，所以如果分区在这段时间之前修复好了，就没有写入操作会丢失。当分区故障持续超过 NODE_TIMEOUT，集群的多数节点这边会在一超过 NODE_TIMEOUT 这个时间段后开始拒绝往受损分区进行写入，所以在少数节点这边（指分区）变得不再可用后，会有一个写入操作最大损失范围（因为在指定时间段后将不会再有写入操作被接收或丢失）。
 
+
+### 集群在线重配置（live reconfiguration）
+当 SETSLOT 子命令使用 NODE 形式的时候，用来给指定 ID 的节点指派哈希槽。 除此之外哈希槽能通过两个特殊的状态来设定，MIGRATING 和 IMPORTING：
+
+* 当一个槽被设置为 MIGRATING，原来持有该哈希槽的节点仍会接受所有跟这个哈希槽有关的请求，但只有当查询的键还存在原节点时，原节点会处理该请求，否则这个查询会通过一个 -ASK 重定向（-ASK redirection）转发到迁移的目标节点。
+* 当一个槽被设置为 IMPORTING，只有在接受到 ASKING 命令之后节点才会接受所有查询这个哈希槽的请求。如果客户端一直没有发送 ASKING 命令，那么查询都会通过 -MOVED 重定向错误转发到真正处理这个哈希槽的节点那里。
+
+
+### 失效检测（Failure detection）
+* PFAIL 标识(Possible failure)
+* PFAIL 标识
+
 ### 引用
 * [Redis 集群教程](http://www.redis.cn/topics/cluster-tutorial.html)
 * [Redis 集群规范](http://www.redis.cn/topics/cluster-spec.html)
