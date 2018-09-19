@@ -10,16 +10,20 @@ insert into staff values (1, 's1', 50, 5, 20182);
 insert into staff values (2, 'ss', 120, 12, 20182);
 insert into staff values (3, 's3', 200, 20, 20183);
 
-select quarter, sid, name, amount, score, new_rank as rank
+select quarter, user_id, real_name, hkje, hkxmdf, rank
 from (
-    select quarter, sid, name, amount, score,
-           if(@tmp=quarter, @rank:=22, @rank:=1) as new_rank,
-           @tmp:=quarter as tmp
-    from (
-        select quarter, sid, name, sum(amount) amount, sum(score) score from staff group by quarter, sid, name
-    ) a
-    order by quarter, score desc
-) b;
+select quarter, user_id, real_name, hkje, hkxmdf, new_rank as rank
+from (
+		select quarter, user_id, real_name, hkje, hkxmdf,
+					 if(@tmp=quarter, CASE WHEN @s=hkxmdf THEN @rank WHEN @s:=hkxmdf THEN @rank:=@rank+1 END, @rank:=1) as new_rank,
+					 @tmp:=quarter as tmp,
+					 @s:=hkxmdf
+		from (
+				select user_id, real_name, sum(hkje) hkje, sum(hkxmdf) hkxmdf, (year(endtime)*10+quarter(endtime)) quarter from t_khgrhk group by user_id, real_name, (year(endtime)*10+quarter(endtime))
+		) a, (SELECT @tmp:=NULL,@s:=NULL,@rank:=0) rank --********
+		order by quarter, hkxmdf desc
+) b
+) c where 1=1 and user_id = 1;
 
 ```
 
