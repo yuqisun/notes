@@ -8,3 +8,8 @@ h = 1./(1.+e.^(-X*theta));
 grad = X'*(h.-y)./m;
 ```
 
+## predict
+```
+p = sigmoid(X*theta)>=0.5;
+```
+
