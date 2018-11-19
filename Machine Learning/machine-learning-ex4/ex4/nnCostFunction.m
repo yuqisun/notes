@@ -72,14 +72,23 @@ z_L=Theta2*a_hidden;
 a_L=sigmoid(z_L);
 h_X=a_L;
 
+
 for k=1:num_labels
 	y_vec=(y==k);
 	h=h_X(k,:);
 
 	tempA=-1*((log(h)*y_vec));
 	tempB=-1*(log(1.-h)*(1.-y_vec));
+	
+	%cost function
 	J=J+(tempA+tempB)/m;
+
 end
+
+%cost function with regularization
+p = sum(sum(Theta1(:, 2:end).^2, 2))+sum(sum(Theta2(:, 2:end).^2, 2));
+J=J + lambda*p/(2*m);
+
 
 
 
