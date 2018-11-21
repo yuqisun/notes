@@ -99,41 +99,12 @@ delta_hidden=delta_hidden(:,2:end);%5000x25
 DELTA_HIDDEN=delta_L'*a_hidden;%10x5000 * 5000x26
 DELTA_INPUT=delta_hidden'*a_input;%25x5000 * 5000*401
 
-Theta1_grad=DELTA_INPUT./m;
-Theta2_grad=DELTA_HIDDEN./m;
+%Theta1_grad=DELTA_INPUT./m;
+%Theta2_grad=DELTA_HIDDEN./m;
 
-
-
-
-
-
-
-
----------------
-Y=zeros(m, num_labels);
-for k=1:num_labels
-	y_vec=(y==k);
-	h=h_X(k,:);
-
-	tempA=-1*((log(h)*y_vec));
-	tempB=-1*(log(1.-h)*(1.-y_vec));
-	J=J+(tempA+tempB)/m;
-
-	Y(:,k)=y_vec;
-end
-
-
-delta_L=a_L'.-Y;
-delta_hidden=(delta_L*Theta2.*a_hidden'.*(1-a_hidden)');
-
-
-Delta_L = delta_L'*a_hidden';
-Delta_hidden = delta_hidden'*X;
-
-
-Theta1_grad = Delta_hidden(2:end,:)./m + (lambda/m)*[zeros(size(Theta1,1), 1) Theta1(:, 2:end)];
-Theta2_grad = Delta_L./m + (lambda/m)*[zeros(size(Theta2,1), 1) Theta2(:, 2:end)];
----------------
+%regularization
+Theta1_grad=DELTA_INPUT./m + lambda/m.*[zeros(size(Theta1, 1), 1) Theta1(:,2:end)];
+Theta2_grad=DELTA_HIDDEN./m + lambda/m.*[zeros(size(Theta2, 1), 1) Theta2(:,2:end)];
 
 
 
