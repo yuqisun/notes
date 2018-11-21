@@ -63,31 +63,44 @@ Theta2_grad = zeros(size(Theta2));
 %
 
 
-X=[ones(m,1) X];
-z_hidden=Theta1*X';
-a_hidden=sigmoid(z_hidden);
-a_hidden_cols=size(a_hidden, 2);
-a_hidden=[ones(1, a_hidden_cols); a_hidden];
-z_L=Theta2*a_hidden;
-a_L=sigmoid(z_L);
+a_input=[ones(m,1) X];%5000x401
+z_hidden=a_input*Theta1';%5000x401 * 401x25 = 5000x25
+a_hidden=[ones(size(z_hidden, 1), 1) sigmoid(z_hidden)];%5000x26
+z_L=a_hidden*Theta2';%5000x26 * 26x10 = 5000x10
+a_L=sigmoid(z_L);%5000%10
 h_X=a_L;
 
 
 for k=1:num_labels
-	y_vec=(y==k);
-	h=h_X(k,:);
+	y_vec=(y==k);%5000x1
+	h=h_X(:,k);%5000x1
 
-	tempA=-1*((log(h)*y_vec));
-	tempB=-1*(log(1.-h)*(1.-y_vec));
+	tempA=-1*((log(h)'*y_vec));
+	tempB=-1*(log(1.-h)'*(1.-y_vec));
 	
 	%cost function
 	J=J+(tempA+tempB)/m;
-
 end
 
 %cost function with regularization
 p = sum(sum(Theta1(:, 2:end).^2, 2))+sum(sum(Theta2(:, 2:end).^2, 2));
 J=J + lambda*p/(2*m);
+
+%backpropagation
+Y=zeros(num_labels, m);%10x5000
+for k=1:num_labels
+	y_vec=(y==k);
+	Y(k,:)=y_vec';
+end
+delta_L=a_L-Y';%5000x10 - 5000x10 = 5000x10
+delta_hidden=delta_L*Theta2 .*sigmoidGradient([ones(size(z_hidden, 1), 1) z_hidden]);%5000x10 * 10x26 .* 5000x26
+delta_hidden=delta_hidden(:,2:end);%5000x25
+
+DELTA_HIDDEN=delta_L'*a_hidden;%10x5000 * 5000x26
+DELTA_INPUT=delta_hidden'*a_input;%25x5000 * 5000*401
+
+Theta1_grad=DELTA_INPUT./m;
+Theta2_grad=DELTA_HIDDEN./m;
 
 
 
