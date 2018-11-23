@@ -9,3 +9,22 @@ J=1/(2*m)*((h.-y)'*(h.-y)) + lambda/(2*m)*sum([0; theta(2:end,:)]);
 grad=1/m.*(X'*(h.-y)) .+ lambda/m.*[0; theta(2:end,:)];
 
 
+2.learningCurve
+
+for i=1:m
+	X_train=X(1:i,:);
+	y_train=y(1:i);
+
+	theta=trainLinearReg(X_train, y_train, lambda);
+	J_train=linearRegCostFunction(X_train, y_train, theta, lambda);
+
+	%For the cross validation error, you should compute it over the entire cross validation set.
+	J_cv=linearRegCostFunction(Xval, yval, theta, lambda);
+
+	error_train(i)=J_train;
+	error_val(i)=J_cv;
+end
+
+
+
+
