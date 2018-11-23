@@ -107,11 +107,6 @@ Theta1_grad=DELTA_INPUT./m + lambda/m.*[zeros(size(Theta1, 1), 1) Theta1(:,2:end
 Theta2_grad=DELTA_HIDDEN./m + lambda/m.*[zeros(size(Theta2, 1), 1) Theta2(:,2:end)];
 
 
-
-
-
-
-
 % -------------------------------------------------------------
 
 % =========================================================================
