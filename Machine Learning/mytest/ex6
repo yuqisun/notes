@@ -39,3 +39,12 @@ sigma=sigma_tmp;
 		end
 	end
 	
+
+4.emailFeatures.m
+
+for index=word_indices
+	x(index, 1)=1;
+end
+
+x=x';
+
