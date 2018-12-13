@@ -1,0 +1,9 @@
+1.findClosestCentroids.m
+
+m=size(X,1);
+for i=1:m
+	vec=(X(i,1).-centroids(:,1)).^2 + (X(i,2).-centroids(:,2)).^2;
+	[minval,row]=min(vec);
+	idx(i)=row;
+end
+
