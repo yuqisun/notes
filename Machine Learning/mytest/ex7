@@ -7,3 +7,13 @@ for i=1:m
 	idx(i)=row;
 end
 
+
+2.computeCentroids.m
+
+for i=1:K
+	row=find(idx==i);
+	num=length(row);
+	centroids(i,:)=sum(X(row,:))./num;
+end
+
+
