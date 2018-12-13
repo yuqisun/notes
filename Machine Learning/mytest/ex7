@@ -17,3 +17,8 @@ for i=1:K
 end
 
 
+3.kMeansInitCentroids.m
+
+randidix=randperm(size(X,1));
+centroids=X(randidx(1:K),:);
+
