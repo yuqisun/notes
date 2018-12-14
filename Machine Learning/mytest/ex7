@@ -22,3 +22,10 @@ end
 randidx=randperm(size(X,1));
 centroids=X(randidx(1:K),:);
 
+
+
+4.pca.m
+
+Sigma=X'*X/m;
+[U, S, V]=svd(Sigma);
+
