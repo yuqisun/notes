@@ -17,4 +17,7 @@ sigma2=sum((X.-mu).^2)./m;
   
   
   
-  
+3.cofiCostFunc.m
+
+J=sum(((X*Theta' - Y).^2)(R==1))/2;
+
