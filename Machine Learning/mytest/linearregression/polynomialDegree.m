@@ -5,8 +5,8 @@ function degree = polynomialDegree(n, d)
 
     degree=[];
     f(1, [], n, d);
-    [r,c]=size(degree);
-    fprintf('Total %d scenarios for %d items in polynomial and %d degree\n', r, n, d);
+    %[r,c]=size(degree);
+    %fprintf('Total %d scenarios for %d items in polynomial and %d degree\n', r, n, d);
 
     function f(idx, row, boxes, balls)
       if(boxes==1)
