@@ -27,3 +27,55 @@ https://stackoverflow.com/questions/49768770/not-able-to-install-python-packages
 
 https://blog.csdn.net/qq_38839677/article/details/83374219
 
+
+
+
+
+
+import urllib #http连接需要用到
+import json  #解析网页数据用
+import win32clipboard as wc #读取剪切板数据
+from pymouse import PyMouse #获得当前鼠标信息
+import tkinter         #自带的GUI库，生成文本框
+import time          #定时器，减少占用
+currentData='' 
+
+#PyMouse得到的是2维字符串，但是tkinter生成窗体时需要的是类似（100*100+x+y）的字符串，100*100是窗口大小，xy是坐标点。
+def transMousePosition():
+    m = PyMouse()
+    return "100x100+"+str(m.position()[0])+"+"+str(m.position()[1])
+#获得剪切板数据    
+def getCopyText():
+    wc.OpenClipboard()
+    copy_text = wc.GetClipboardData()
+    wc.CloseClipboard()
+    return copy_text
+#返会是否有新的复制数据
+def newCopyData():
+    return currentData==str(getCopyText())
+if __name__ == '__main__':
+    req_url = 'http://fanyi.youdao.com/translate'  # 创建连接接口，这里是有道词典的借口
+    # 创建要提交的数据
+    currentData=str(getCopyText())
+    Form_Date = {}
+    Form_Date['doctype'] = 'json'
+    while 1:
+        if newCopyData():
+            currentData=str(getCopyText())#取得当前剪切板数据
+            Form_Date['i'] = currentData # 传递数据
+            #data = urllib.urlencode(Form_Date).encode('utf-8') #数据转换
+            #response = urllib.urlopen(req_url, data) #提交数据并解析
+            #html = 'hiiiiiiiiiiiiiii' #response.read().decode('utf-8')  #服务器返回结果读取
+            print(Form_Date['i'])
+            translate_results = 'you get ' + currentData #json.loads(html)  #以json格式载入
+            #translate_results = translate_results['translateResult'][0][0]['tgt']  # json格式调取
+            position=transMousePosition()#取得当前鼠标位置
+            top = tkinter.Tk()#窗口初始化
+            top.wm_attributes('-topmost',1)#置顶窗口
+            top.geometry(position)#指定定位生成指定大小窗口
+            e=tkinter.Text()#生成文本框部件
+            e.insert(1.0,translate_results)#插入数据
+            e.pack()#将部件打包进窗口
+            top.mainloop()# 进入消息循环
+        currentData=str(getCopyText())
+        time.sleep(1)
