@@ -8,3 +8,22 @@ ipython notebook
 http://python.jobbole.com/87522/
 
 https://blog.csdn.net/weixin_41592575/article/details/78984585
+
+
+
+0
+
+1) You're gonna wanna visit https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyhook download the version with "36" in the name.
+2) Open cmd, git cmd, or git bash,
+*On cmd change directory into the location where pip and the whl file are stored, type pip install (whl name with 36 in the version name)
+*git cmd is the same thing
+*On git bash, cd into the directory with the whl and pip and type ./pip install (whl name)
+I had the same problem as you, but it turned out the only problem was the file version I was downloading. Make sure you're downloading the version that's compatible with the Python you're using.
+
+
+https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyhook
+
+https://stackoverflow.com/questions/49768770/not-able-to-install-python-packages-ssl-tlsv1-alert-protocol-version
+
+https://blog.csdn.net/qq_38839677/article/details/83374219
+
