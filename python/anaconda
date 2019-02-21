@@ -79,3 +79,18 @@ if __name__ == '__main__':
             top.mainloop()# 进入消息循环
         currentData=str(getCopyText())
         time.sleep(1)
+
+
+
+
+
+
+
+
+
+douban io
+https://blog.csdn.net/csdn_am/article/details/79924744
+
+py to exe
+https://blog.csdn.net/qq_32545287/article/details/73292264
+
