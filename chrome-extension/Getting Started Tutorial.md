@@ -3,3 +3,6 @@
 [Getting Started Tutorial](https://developer.chrome.com/extensions/getstarted)
 
 [入门：建立 Chrome 扩展程序](https://crxdoc-zh.appspot.com/extensions/getstarted)
+
+https://www.cnblogs.com/guogangj/p/3235703.html
+
