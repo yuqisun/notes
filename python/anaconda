@@ -91,6 +91,8 @@ if __name__ == '__main__':
 douban io
 https://blog.csdn.net/csdn_am/article/details/79924744
 
+pip install 包名-i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com
+
 py to exe
 https://blog.csdn.net/qq_32545287/article/details/73292264
 
