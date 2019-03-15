@@ -1,0 +1,28 @@
+import wx
+import wx.lib.layoutf as layoutf
+
+#---------------------------------------------------------------------------
+
+class ShowDoggie(wx.Frame):
+    def __init__(self, parent, title, size):
+        super(ShowDoggie, self).__init__(parent, title=title, size=size)
+
+        hbox = wx.BoxSizer(wx.HORIZONTAL)
+
+        mainPanel = wx.Panel(self)
+        mainPanel.SetBackgroundColour('green')
+
+        leftPanel = wx.Panel(mainPanel, size=(150,550))
+        leftPanel.SetBackgroundColour('pink')
+        rightPanel = wx.Panel(mainPanel, size=(600,550))
+        rightPanel.SetBackgroundColour('yellow')
+
+        hbox.Add(leftPanel)
+        hbox.Add(rightPanel)
+
+        mainPanel.SetSizer(hbox)
+
+app = wx.App(False)
+panel = ShowDoggie(None, 'Show Doggie', (750, 550))
+panel.Show()
+app.MainLoop()
