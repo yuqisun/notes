@@ -674,7 +674,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="TU4Nj2IvBCG9Pza0cC0h-103" value="latency = 1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="455" y="1570" width="80" height="30" as="geometry" />
+          <mxGeometry x="440" y="1564" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TU4Nj2IvBCG9Pza0cC0h-105" value="inport 0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1610" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TU4Nj2IvBCG9Pza0cC0h-106" value="inport 1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="275" y="1610" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TU4Nj2IvBCG9Pza0cC0h-107" value="inport 2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="365" y="1610" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TU4Nj2IvBCG9Pza0cC0h-108" value="inport 3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="143" y="1665" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
