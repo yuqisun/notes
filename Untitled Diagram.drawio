@@ -352,7 +352,7 @@
           <mxGeometry x="650" y="1570" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TU4Nj2IvBCG9Pza0cC0h-11" value="send to intra cgra (ring network)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-425" y="1460" width="190" height="30" as="geometry" />
+          <mxGeometry x="-520" y="1505" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TU4Nj2IvBCG9Pza0cC0h-12" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;entryX=0.129;entryY=0.085;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="100" relative="1" as="geometry">
