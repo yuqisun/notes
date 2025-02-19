@@ -1553,6 +1553,9 @@
         <mxCell id="WhJLwq2s08QhQcbH6_EK-237" value="y3 = 20" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1293.97" y="2906" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="WhJLwq2s08QhQcbH6_EK-238" value="6 * 1 向下传递" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="2020" width="100" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
