@@ -734,6 +734,18 @@
         <mxCell id="6Hnle4IKLHSoBOltCSrr-10" value="Ctrl/Data pkt from CPU" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1637" y="-780" width="150" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="RuAmcMpMLQNHvZ1sKDiw-2" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1370" y="-760" as="sourcePoint" />
+            <mxPoint x="-1210" y="-920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RuAmcMpMLQNHvZ1sKDiw-3" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1370" y="-920" as="sourcePoint" />
+            <mxPoint x="-1210" y="-760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
