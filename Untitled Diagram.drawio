@@ -1822,13 +1822,6 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EUuwu1lwANL08ikNTtK_-9" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" parent="1" edge="1">
-          <mxGeometry width="100" relative="1" as="geometry">
-            <mxPoint x="2319.5" y="1047" as="sourcePoint" />
-            <mxPoint x="2319.5" y="937" as="targetPoint" />
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="EUuwu1lwANL08ikNTtK_-10" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="100" relative="1" as="geometry">
             <mxPoint x="1930" y="889.5" as="sourcePoint" />
