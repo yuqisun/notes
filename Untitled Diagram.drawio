@@ -1637,7 +1637,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="C_G3GR83LiOOQNsVDfi3" name="Weight stationary example in VectorCGRA">
-    <mxGraphModel dx="32" dy="578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="-134" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1687,7 +1687,7 @@
           <mxGeometry x="2168" y="523" width="270" height="70" as="geometry" />
         </mxCell>
         <mxCell id="wLmIUSWAWczABgJcgjHZ-14" value="Right Matrix (weights)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="1824" y="754" width="170" height="30" as="geometry" />
+          <mxGeometry x="1824" y="760" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wLmIUSWAWczABgJcgjHZ-15" value="const:&lt;br&gt;6" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="1840" y="850" width="80" height="80" as="geometry" />
