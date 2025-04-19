@@ -1870,7 +1870,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="CgraRTL Weight stationary example in VectorCGRA" id="tZph_mrWCWUfbtxaE6LE">
-    <mxGraphModel dx="-563" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="-726" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="fufEccPD5WgIZU68T5pF-0" />
         <mxCell id="fufEccPD5WgIZU68T5pF-1" parent="fufEccPD5WgIZU68T5pF-0" />
@@ -2057,18 +2057,18 @@
         <mxCell id="lNoiicKHFHz5SQhKiTxD-9" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="fufEccPD5WgIZU68T5pF-1">
           <mxGeometry width="100" relative="1" as="geometry">
             <mxPoint x="2024" y="891.5" as="sourcePoint" />
-            <mxPoint x="2124" y="891.5" as="targetPoint" />
+            <mxPoint x="2090" y="892" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lNoiicKHFHz5SQhKiTxD-10" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="fufEccPD5WgIZU68T5pF-1">
-          <mxGeometry x="2134" y="850" width="143" height="80" as="geometry" />
+          <mxGeometry x="2103" y="850" width="143" height="80" as="geometry" />
         </mxCell>
         <mxCell id="lNoiicKHFHz5SQhKiTxD-11" value="14(0e)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;20(14)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=light-dark(#3465a4, #ededed);fontStyle=1" vertex="1" parent="fufEccPD5WgIZU68T5pF-1">
-          <mxGeometry x="2146" y="864" width="60" height="60" as="geometry" />
+          <mxGeometry x="2115" y="864" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lNoiicKHFHz5SQhKiTxD-12" value="30(1e)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;44(2c)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=light-dark(#3465a4, #ededed);fontStyle=1" vertex="1" parent="fufEccPD5WgIZU68T5pF-1">
-          <mxGeometry x="2207" y="864" width="60" height="60" as="geometry" />
+          <mxGeometry x="2176" y="864" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="iGXixbeAnAqX92OqZNou-6" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="fufEccPD5WgIZU68T5pF-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
