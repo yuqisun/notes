@@ -3181,7 +3181,7 @@
           <mxGeometry x="1097" y="265" width="80" height="545" as="geometry" />
         </mxCell>
         <mxCell id="fL9I8VSw9-qVZ0cUEplR-1" value="&lt;div&gt;num_rd_tiles = 4&lt;/div&gt;&lt;div&gt;num_wr_tiles = 4&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;num_xbar_in_rd_ports = num_rd_tiles + 1&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;num_xbar_in_wr_ports = num_wr_tiles + 1&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="107" y="-80" width="260" height="90" as="geometry" />
+          <mxGeometry x="108" y="-80" width="260" height="90" as="geometry" />
         </mxCell>
         <mxCell id="fL9I8VSw9-qVZ0cUEplR-4" value="recv_raddr[0]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="190" y="170" width="90" height="30" as="geometry" />
