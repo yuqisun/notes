@@ -1985,7 +1985,7 @@
           <mxGeometry x="437" y="1811.5" width="30" height="70" as="geometry" />
         </mxCell>
         <mxCell id="ZMI7Cq-BGA-BcX0JbXGt-8" value="RegisterCluster" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="120" y="1830" width="110" height="30" as="geometry" />
+          <mxGeometry x="158.5" y="1835.5" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZMI7Cq-BGA-BcX0JbXGt-9" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1">
           <mxGeometry width="100" relative="1" as="geometry">
