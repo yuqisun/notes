@@ -689,74 +689,74 @@
           <mxGeometry x="143" y="1665" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6Hnle4IKLHSoBOltCSrr-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="-1392" y="-939" width="200" height="200" as="geometry" />
+          <mxGeometry x="-1392" y="-938" width="200" height="200" as="geometry" />
         </mxCell>
         <mxCell id="6Hnle4IKLHSoBOltCSrr-2" value="Cross Bar" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-1332" y="-739" width="80" height="30" as="geometry" />
+          <mxGeometry x="-1332" y="-738" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6Hnle4IKLHSoBOltCSrr-3" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="100" relative="1" as="geometry">
-            <mxPoint x="-1492" y="-899" as="sourcePoint" />
-            <mxPoint x="-1392" y="-899" as="targetPoint" />
+            <mxPoint x="-1492" y="-898" as="sourcePoint" />
+            <mxPoint x="-1392" y="-898" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6Hnle4IKLHSoBOltCSrr-4" value="Load Request" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-1592" y="-913" width="100" height="30" as="geometry" />
+          <mxGeometry x="-1592" y="-912" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6Hnle4IKLHSoBOltCSrr-5" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="100" relative="1" as="geometry">
-            <mxPoint x="-1492" y="-860" as="sourcePoint" />
-            <mxPoint x="-1392" y="-860" as="targetPoint" />
+            <mxPoint x="-1492" y="-859" as="sourcePoint" />
+            <mxPoint x="-1392" y="-859" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6Hnle4IKLHSoBOltCSrr-6" value="Store Request" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-1592" y="-874" width="100" height="30" as="geometry" />
+          <mxGeometry x="-1592" y="-873" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6Hnle4IKLHSoBOltCSrr-7" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="100" relative="1" as="geometry">
-            <mxPoint x="-1492" y="-815" as="sourcePoint" />
-            <mxPoint x="-1392" y="-815" as="targetPoint" />
+            <mxPoint x="-1492" y="-814" as="sourcePoint" />
+            <mxPoint x="-1392" y="-814" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6Hnle4IKLHSoBOltCSrr-8" value="Load Response" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-1597" y="-829" width="110" height="30" as="geometry" />
+          <mxGeometry x="-1597" y="-828" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6Hnle4IKLHSoBOltCSrr-9" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="100" relative="1" as="geometry">
-            <mxPoint x="-1492" y="-765" as="sourcePoint" />
-            <mxPoint x="-1392" y="-765" as="targetPoint" />
+            <mxPoint x="-1492" y="-764" as="sourcePoint" />
+            <mxPoint x="-1392" y="-764" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6Hnle4IKLHSoBOltCSrr-10" value="Ctrl/Data pkt from CPU" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-1639" y="-779" width="150" height="30" as="geometry" />
+          <mxGeometry x="-1639" y="-778" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RuAmcMpMLQNHvZ1sKDiw-4" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-1609.5" y="-918" width="135" height="74" as="geometry" />
+          <mxGeometry x="-1609.5" y="-917" width="135" height="74" as="geometry" />
         </mxCell>
         <mxCell id="RuAmcMpMLQNHvZ1sKDiw-2" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-1372" y="-759" as="sourcePoint" />
-            <mxPoint x="-1212" y="-919" as="targetPoint" />
+            <mxPoint x="-1372" y="-758" as="sourcePoint" />
+            <mxPoint x="-1212" y="-918" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="RuAmcMpMLQNHvZ1sKDiw-3" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-1372" y="-919" as="sourcePoint" />
-            <mxPoint x="-1212" y="-759" as="targetPoint" />
+            <mxPoint x="-1372" y="-918" as="sourcePoint" />
+            <mxPoint x="-1212" y="-758" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="RuAmcMpMLQNHvZ1sKDiw-5" value="Towards remote memory" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-1758" y="-929" width="160" height="30" as="geometry" />
+          <mxGeometry x="-1758" y="-928" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RuAmcMpMLQNHvZ1sKDiw-6" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-1609.5" y="-836.5" width="135" height="45" as="geometry" />
+          <mxGeometry x="-1609.5" y="-835.5" width="135" height="45" as="geometry" />
         </mxCell>
         <mxCell id="RuAmcMpMLQNHvZ1sKDiw-7" value="Local memory" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-1702" y="-847" width="100" height="30" as="geometry" />
+          <mxGeometry x="-1702" y="-846" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
